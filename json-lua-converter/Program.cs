@@ -12,1345 +12,1274 @@ namespace json_lua_converter
         {
 						var raid_drop_data = @"[
     {
-        ""name"": ""Manastorm Leggings"",
-        ""price"": 2,
-        ""id"": 18872,
+        ""name"": ""Aegis of Preservation"",
+        ""price"": 0,
+        ""id"": 19345,
         ""fortank"": ""No"",
-        ""bosses"": ""Lucifron, Gehennas, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18872""
+        ""bosses"": ""Ebonroc"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19345"",
+        ""type"": ""Trinket""
     },
     {
-        ""name"": ""Choker of Enlightenment"",
-        ""price"": 5,
-        ""id"": 17109,
-        ""fortank"": ""No"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17109""
-    },
-    {
-        ""name"": ""Heavy Dark Iron Ring"",
-        ""price"": 45,
-        ""id"": 18879,
+        ""name"": ""Amulet of Shadow Shielding"",
+        ""price"": 0,
+        ""id"": 21529,
         ""fortank"": ""Yes"",
-        ""bosses"": ""Lucifron, Gehennas, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18879""
+        ""bosses"": ""Nefarius's Corruption"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=21529"",
+        ""type"": ""Neck""
     },
     {
-        ""name"": ""Flamewaker Legplates"",
+        ""name"": ""Angelista's Grasp"",
         ""price"": 5,
-        ""id"": 18861,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Lucifron, Magmadar, Gehennas, Garr, Baron Geddon, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18861""
+        ""id"": 19388,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19388"",
+        ""type"": ""Cloth Waist""
     },
     {
-        ""name"": ""Ring of Spell Power"",
+        ""name"": ""Arcane Infused Gem"",
+        ""price"": 0,
+        ""id"": 19336,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19336"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Archimtiros' Ring of Reckoning"",
+        ""price"": 5,
+        ""id"": 19376,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19376"",
+        ""type"": ""Finger""
+    },
+    {
+        ""name"": ""Ashjre'thul, Crossbow of Smiting"",
+        ""price"": 65,
+        ""id"": 19361,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19361"",
+        ""type"": ""Ranged Crossbow""
+    },
+    {
+        ""name"": ""Ashkandi, Greatsword of the Brotherhood"",
         ""price"": 45,
-        ""id"": 19147,
+        ""id"": 19364,
         ""fortank"": ""No"",
-        ""bosses"": ""Lucifron, Gehennas, Shazzrah, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19147""
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19364"",
+        ""type"": ""Two-hand Sword""
     },
     {
-        ""name"": ""Robe of Volatile Power"",
-        ""price"": 50,
-        ""id"": 19145,
-        ""fortank"": ""No"",
-        ""bosses"": ""Lucifron, Gehennas, Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19145""
-    },
-    {
-        ""name"": ""Helm of the Lifegiver"",
+        ""name"": ""Band of Dark Dominion"",
         ""price"": 20,
-        ""id"": 18870,
+        ""id"": 19434,
         ""fortank"": ""No"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18870""
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19434"",
+        ""type"": ""Finger""
     },
     {
-        ""name"": ""Earthshaker"",
-        ""price"": 2,
-        ""id"": 17073,
+        ""name"": ""Band of Forced Concentration"",
+        ""price"": 30,
+        ""id"": 19403,
         ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17073""
+        ""bosses"": ""Ebonroc"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19403"",
+        ""type"": ""Finger""
     },
     {
-        ""name"": ""Mana Igniting Cord"",
-        ""price"": 50,
-        ""id"": 19136,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19136""
-    },
-    {
-        ""name"": ""Strikers Mark"",
-        ""price"": 50,
-        ""id"": 17069,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17069""
-    },
-    {
-        ""name"": ""Medallion of Steadfast Might"",
-        ""price"": 40,
-        ""id"": 17065,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17065""
-    },
-    {
-        ""name"": ""Eskhandar's Right Claw"",
-        ""price"": 40,
-        ""id"": 18203,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18203""
-    },
-    {
-        ""name"": ""Fire Runed Grimoire"",
+        ""name"": ""Belt of Transcendence"",
         ""price"": 15,
-        ""id"": 19142,
+        ""id"": 16925,
         ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19142""
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16925"",
+        ""type"": ""Cloth Waist""
     },
     {
-        ""name"": ""Flameguard Gauntlets"",
-        ""price"": 40,
-        ""id"": 19143,
+        ""name"": ""Bindings of Transcendence"",
+        ""price"": 15,
+        ""id"": 16926,
         ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19143""
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16926"",
+        ""type"": ""Cloth Wrists""
     },
     {
-        ""name"": ""Obsidian Edged Blade"",
-        ""price"": 55,
-        ""id"": 18822,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18822""
-    },
-    {
-        ""name"": ""Quick Strike Ring"",
-        ""price"": 50,
-        ""id"": 18821,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18821""
-    },
-    {
-        ""name"": ""Talisman of Ephemeral Power"",
-        ""price"": 50,
-        ""id"": 18820,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18820""
-    },
-    {
-        ""name"": ""Aged Core Leather Gloves"",
-        ""price"": 50,
-        ""id"": 18823,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon, Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18823""
-    },
-    {
-        ""name"": ""Magma Tempered Boots"",
-        ""price"": 2,
-        ""id"": 18824,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar, Garr, Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18824""
-    },
-    {
-        ""name"": ""Sabatons of the Flamewalker"",
-        ""price"": 2,
-        ""id"": 19144,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19144""
-    },
-    {
-        ""name"": ""Crimson Shocker"",
+        ""name"": ""Black Ash Robe"",
         ""price"": 0,
-        ""id"": 17077,
+        ""id"": 19399,
         ""fortank"": ""No"",
-        ""bosses"": ""Gehennas, Shazzrah, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17077""
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19399"",
+        ""type"": ""Cloth Chest""
     },
     {
-        ""name"": ""Sorcerous Dagger"",
+        ""name"": ""Black Brood Pauldrons"",
+        ""price"": 2,
+        ""id"": 19373,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19373"",
+        ""type"": ""Mail Shoulders""
+    },
+    {
+        ""name"": ""Bloodfang Belt"",
+        ""price"": 15,
+        ""id"": 16910,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16910"",
+        ""type"": ""Leather Waist""
+    },
+    {
+        ""name"": ""Bloodfang Boots"",
         ""price"": 20,
-        ""id"": 18878,
+        ""id"": 16906,
         ""fortank"": ""No"",
-        ""bosses"": ""Gehennas, Shazzrah, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18878""
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16906"",
+        ""type"": ""Leather Feet""
     },
     {
-        ""name"": ""Wristguards of Stability"",
-        ""price"": 50,
-        ""id"": 19146,
+        ""name"": ""Bloodfang Bracers"",
+        ""price"": 15,
+        ""id"": 16911,
         ""fortank"": ""No"",
-        ""bosses"": ""Gehennas, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19146""
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16911"",
+        ""type"": ""Leather Wrists""
     },
     {
-        ""name"": ""Salamander Scale Pants"",
-        ""price"": 40,
-        ""id"": 18875,
-        ""fortank"": ""No"",
-        ""bosses"": ""Gehennas, Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18875""
-    },
-    {
-        ""name"": ""Aurastone Hammer"",
-        ""price"": 40,
-        ""id"": 17105,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17105""
-    },
-    {
-        ""name"": ""Brutality Blade"",
-        ""price"": 40,
-        ""id"": 18832,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18832""
-    },
-    {
-        ""name"": ""Drillborer Disk"",
-        ""price"": 40,
-        ""id"": 17066,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17066""
-    },
-    {
-        ""name"": ""Gutgore Ripper"",
-        ""price"": 5,
-        ""id"": 17071,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17071""
-    },
-    {
-        ""name"": ""Seal of the Archmagus"",
-        ""price"": 0,
-        ""id"": 17110,
-        ""fortank"": ""No"",
-        ""bosses"": ""Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17110""
-    },
-    {
-        ""name"": ""Bindings of the Windseeker"",
-        ""price"": 120,
-        ""id"": 18564,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18564""
-    },
-    {
-        ""name"": ""Azuresong Mageblade"",
-        ""price"": 60,
-        ""id"": 17103,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17103""
-    },
-    {
-        ""name"": ""Staff of Dominance"",
-        ""price"": 60,
-        ""id"": 18842,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18842""
-    },
-    {
-        ""name"": ""Blastershot Launcher"",
-        ""price"": 2,
-        ""id"": 17072,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17072""
-    },
-    {
-        ""name"": ""Shadowstrike"",
-        ""price"": 2,
-        ""id"": 17074,
-        ""fortank"": ""No"",
-        ""bosses"": ""Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17074""
-    },
-    {
-        ""name"": ""Core Hound Tooth"",
-        ""price"": 50,
-        ""id"": 18805,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18805""
-    },
-    {
-        ""name"": ""Fireproof Cloak"",
-        ""price"": 0,
-        ""id"": 18811,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18811""
-    },
-    {
-        ""name"": ""Sash of Whispered Secrets"",
-        ""price"": 40,
-        ""id"": 18809,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18809""
-    },
-    {
-        ""name"": ""Wild Growth Spaulders"",
-        ""price"": 55,
-        ""id"": 18810,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18810""
-    },
-    {
-        ""name"": ""Wristguards of True Flight"",
-        ""price"": 10,
-        ""id"": 18812,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18812""
-    },
-    {
-        ""name"": ""Core Forged Greaves"",
-        ""price"": 0,
-        ""id"": 18806,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18806""
-    },
-    {
-        ""name"": ""Finkle's Lava Dredger"",
+        ""name"": ""Bloodfang Chestpiece"",
         ""price"": 25,
-        ""id"": 18803,
+        ""id"": 16905,
         ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18803""
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16905"",
+        ""type"": ""Leather Chest""
     },
     {
-        ""name"": ""Fireguard Shoulders"",
-        ""price"": 0,
-        ""id"": 19139,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19139""
-    },
-    {
-        ""name"": ""Gloves of the Hypnotic Flame"",
-        ""price"": 15,
-        ""id"": 18808,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18808""
-    },
-    {
-        ""name"": ""Cauterizing Band"",
-        ""price"": 50,
-        ""id"": 19140,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19140""
-    },
-    {
-        ""name"": ""Perditions Blade"",
-        ""price"": 50,
-        ""id"": 18816,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18816""
-    },
-    {
-        ""name"": ""Band of Sulfuras"",
-        ""price"": 20,
-        ""id"": 19138,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19138""
-    },
-    {
-        ""name"": ""Crown of Destruction"",
-        ""price"": 30,
-        ""id"": 18817,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18817""
-    },
-    {
-        ""name"": ""Band of Accuria"",
-        ""price"": 50,
-        ""id"": 17063,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17063""
-    },
-    {
-        ""name"": ""Dragon's Blood Cape"",
-        ""price"": 0,
-        ""id"": 17107,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17107""
-    },
-    {
-        ""name"": ""Essence of the Pure Flame"",
-        ""price"": 2,
-        ""id"": 18815,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18815""
-    },
-    {
-        ""name"": ""Choker of the Fire Lord"",
-        ""price"": 55,
-        ""id"": 18814,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18814""
-    },
-    {
-        ""name"": ""Cloak of the Shrouded Mists"",
-        ""price"": 50,
-        ""id"": 17102,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17102""
-    },
-    {
-        ""name"": ""Malistar's Defender"",
-        ""price"": 40,
-        ""id"": 17106,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17106""
-    },
-    {
-        ""name"": ""Onslaught Girdle"",
-        ""price"": 60,
-        ""id"": 19137,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=19137""
-    },
-    {
-        ""name"": ""Shard of Flame"",
-        ""price"": 0,
-        ""id"": 17082,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17082""
-    },
-    {
-        ""name"": ""Spinal Reaper"",
-        ""price"": 45,
-        ""id"": 17104,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17104""
-    },
-    {
-        ""name"": ""Bonereaver's Edge"",
-        ""price"": 80,
-        ""id"": 17076,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17076""
-    },
-    {
-        ""name"": ""Eye of Sulfuras"",
-        ""price"": 120,
-        ""id"": 17204,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=17204""
-    },
-    {
-        ""name"": ""Vis'kag the Bloodletter"",
-        ""price"": 40,
-        ""id"": 17075,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=17075""
-    },
-    {
-        ""name"": ""Ancient Cornerstone Grimoire"",
-        ""price"": 2,
-        ""id"": 17067,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=17067""
-    },
-    {
-        ""name"": ""Ring of Binding"",
-        ""price"": 0,
-        ""id"": 18813,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=18813""
-    },
-    {
-        ""name"": ""Sapphiron Drape"",
-        ""price"": 20,
-        ""id"": 17078,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=17078""
-    },
-    {
-        ""name"": ""Eskhandar's Collar"",
-        ""price"": 20,
-        ""id"": 18205,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=18205""
-    },
-    {
-        ""name"": ""Deathbringer"",
-        ""price"": 20,
-        ""id"": 17068,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=17068""
-    },
-    {
-        ""name"": ""Shard of Scale"",
-        ""price"": 55,
-        ""id"": 17064,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=17064""
-    },
-    {
-        ""name"": ""Head of Onyxia"",
-        ""price"": 50,
-        ""id"": 18422,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=18422""
-    },
-    {
-        ""name"": ""Mature Black Dragon Sinew"",
+        ""name"": ""Bloodfang Gloves"",
         ""price"": 5,
-        ""id"": 18705,
+        ""id"": 16907,
         ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=18705""
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16907"",
+        ""type"": ""Leather Hands""
     },
     {
-        ""name"": ""Nemesis Skullcap"",
-        ""price"": 30,
-        ""id"": 16929,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16929""
-    },
-    {
-        ""name"": ""Stormrage Cover"",
-        ""price"": 30,
-        ""id"": 16900,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16900""
-    },
-    {
-        ""name"": ""Dragonstalker's Helm"",
-        ""price"": 30,
-        ""id"": 16939,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16939""
-    },
-    {
-        ""name"": ""Netherwind Crown"",
-        ""price"": 30,
-        ""id"": 16914,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16914""
-    },
-    {
-        ""name"": ""Bloodfang Hood"",
-        ""price"": 30,
-        ""id"": 16908,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16908""
-    },
-    {
-        ""name"": ""Halo of Transcendence"",
-        ""price"": 30,
-        ""id"": 16921,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16921""
-    },
-    {
-        ""name"": ""Helm of Wrath"",
-        ""price"": 30,
-        ""id"": 16963,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16963""
-    },
-    {
-        ""name"": ""Judgement Crown"",
-        ""price"": 30,
-        ""id"": 16955,
-        ""fortank"": ""No"",
-        ""bosses"": ""Onyxia"",
-        ""raid"": ""Onyxia"",
-        ""url"": ""https://classic.wowhead.com/item=16955""
-    },
-    {
-        ""name"": ""Gauntlets of Might"",
+        ""name"": ""Bloodfang Spaulders"",
         ""price"": 20,
-        ""id"": 16863,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16863""
+        ""id"": 16832,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16832"",
+        ""type"": ""Leather Shoulders""
     },
     {
-        ""name"": ""Felheart Gloves"",
+        ""name"": ""Boots of Pure Thought"",
         ""price"": 20,
-        ""id"": 16805,
+        ""id"": 19437,
         ""fortank"": ""No"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16805""
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19437"",
+        ""type"": ""Cloth Feet""
     },
     {
-        ""name"": ""Cenarion Boots"",
-        ""price"": 20,
-        ""id"": 16829,
-        ""fortank"": ""No"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16829""
-    },
-    {
-        ""name"": ""Arcanist Boots"",
-        ""price"": 20,
-        ""id"": 16800,
-        ""fortank"": ""No"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16800""
-    },
-    {
-        ""name"": ""Lawbringer Boots"",
-        ""price"": 20,
-        ""id"": 16859,
-        ""fortank"": ""No"",
-        ""bosses"": ""Lucifron"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16859""
-    },
-    {
-        ""name"": ""Lawbringer Gauntlets"",
-        ""price"": 20,
-        ""id"": 16860,
-        ""fortank"": ""No"",
-        ""bosses"": ""Gehennas"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16860""
-    },
-    {
-        ""name"": ""Lawbringer Belt"",
-        ""price"": 20,
-        ""id"": 16858,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16858""
-    },
-    {
-        ""name"": ""Lawbringer Bracers"",
-        ""price"": 20,
-        ""id"": 16857,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16857""
-    },
-    {
-        ""name"": ""Lawbringer Spaulders"",
-        ""price"": 20,
-        ""id"": 16856,
-        ""fortank"": ""No"",
-        ""bosses"": ""Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16856""
-    },
-    {
-        ""name"": ""Lawbringer Legplates"",
-        ""price"": 2,
-        ""id"": 16855,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16855""
-    },
-    {
-        ""name"": ""Lawbringer Helm"",
-        ""price"": 2,
-        ""id"": 16854,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16854""
-    },
-    {
-        ""name"": ""Lawbringer Chestguard"",
-        ""price"": 20,
-        ""id"": 16853,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16853""
-    },
-    {
-        ""name"": ""Judgement Legplates"",
-        ""price"": 30,
-        ""id"": 16954,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16954""
-    },
-    {
-        ""name"": ""Pauldrons of Might"",
-        ""price"": 20,
-        ""id"": 16868,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16868""
-    },
-    {
-        ""name"": ""Legplates of Might"",
-        ""price"": 2,
-        ""id"": 16867,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16867""
-    },
-    {
-        ""name"": ""Helm of Might"",
-        ""price"": 2,
-        ""id"": 16866,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16866""
-    },
-    {
-        ""name"": ""Breatplate of Might"",
-        ""price"": 20,
-        ""id"": 16865,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16865""
-    },
-    {
-        ""name"": ""Belt of Might"",
-        ""price"": 20,
-        ""id"": 16864,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16864""
-    },
-    {
-        ""name"": ""Sabatons of Might"",
-        ""price"": 20,
-        ""id"": 16862,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Gehennas"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16862""
-    },
-    {
-        ""name"": ""Bracers of Might"",
-        ""price"": 20,
-        ""id"": 16861,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16861""
-    },
-    {
-        ""name"": ""Legplates of Wrath"",
-        ""price"": 30,
-        ""id"": 16962,
-        ""fortank"": ""Yes"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16962""
-    },
-    {
-        ""name"": ""Boots of Prophecy"",
-        ""price"": 20,
-        ""id"": 16811,
-        ""fortank"": ""No"",
-        ""bosses"": ""Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16811""
-    },
-    {
-        ""name"": ""Gloves of Prophecy"",
-        ""price"": 20,
-        ""id"": 16812,
-        ""fortank"": ""No"",
-        ""bosses"": ""Gehennas"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16812""
-    },
-    {
-        ""name"": ""Circlet of Prophecy"",
-        ""price"": 2,
-        ""id"": 16813,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16813""
-    },
-    {
-        ""name"": ""Pants of Prophecy"",
-        ""price"": 2,
-        ""id"": 16814,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16814""
-    },
-    {
-        ""name"": ""Robes of Prophecy"",
-        ""price"": 20,
-        ""id"": 16815,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16815""
-    },
-    {
-        ""name"": ""Mantle of Prophecy"",
-        ""price"": 20,
-        ""id"": 16816,
-        ""fortank"": ""No"",
-        ""bosses"": ""Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16816""
-    },
-    {
-        ""name"": ""Girdle of Prophecy"",
-        ""price"": 20,
-        ""id"": 16817,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16817""
-    },
-    {
-        ""name"": ""Vambraces of Prophecy"",
-        ""price"": 20,
-        ""id"": 16819,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16819""
-    },
-    {
-        ""name"": ""Leggings of Transcendence"",
-        ""price"": 30,
-        ""id"": 16922,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16922""
-    },
-    {
-        ""name"": ""Cenarion Belt"",
-        ""price"": 20,
-        ""id"": 16828,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16828""
-    },
-    {
-        ""name"": ""Cenarion Bracers"",
-        ""price"": 20,
-        ""id"": 16830,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16830""
-    },
-    {
-        ""name"": ""Cenarion Gloves"",
-        ""price"": 20,
-        ""id"": 16831,
-        ""fortank"": ""No"",
-        ""bosses"": ""Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16831""
-    },
-    {
-        ""name"": ""Cenarion Vestments"",
-        ""price"": 20,
-        ""id"": 16833,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16833""
-    },
-    {
-        ""name"": ""Cenarion Helm"",
-        ""price"": 2,
-        ""id"": 16834,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16834""
-    },
-    {
-        ""name"": ""Cenarion Leggings"",
-        ""price"": 2,
-        ""id"": 16835,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16835""
-    },
-    {
-        ""name"": ""Cenarion Spaulders"",
-        ""price"": 20,
-        ""id"": 16836,
-        ""fortank"": ""No"",
-        ""bosses"": ""Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16836""
-    },
-    {
-        ""name"": ""Stormrage Legguards"",
-        ""price"": 30,
-        ""id"": 16901,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16901""
-    },
-    {
-        ""name"": ""Felheart Slippers"",
-        ""price"": 20,
-        ""id"": 16803,
-        ""fortank"": ""No"",
-        ""bosses"": ""Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16803""
-    },
-    {
-        ""name"": ""Felheart Bracers"",
-        ""price"": 20,
-        ""id"": 16804,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16804""
-    },
-    {
-        ""name"": ""Felheart Belt"",
-        ""price"": 20,
-        ""id"": 16806,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16806""
-    },
-    {
-        ""name"": ""Felheart Shoulder Pads"",
-        ""price"": 20,
-        ""id"": 16807,
-        ""fortank"": ""No"",
-        ""bosses"": ""Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16807""
-    },
-    {
-        ""name"": ""Felheart Horns"",
-        ""price"": 2,
-        ""id"": 16808,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16808""
-    },
-    {
-        ""name"": ""Felheart Robes"",
-        ""price"": 20,
-        ""id"": 16809,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16809""
-    },
-    {
-        ""name"": ""Felheart Pants"",
-        ""price"": 2,
-        ""id"": 16810,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16810""
-    },
-    {
-        ""name"": ""Nemesis Leggings"",
-        ""price"": 30,
-        ""id"": 16930,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16930""
-    },
-    {
-        ""name"": ""Arcanist Crown"",
-        ""price"": 2,
-        ""id"": 16795,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16795""
-    },
-    {
-        ""name"": ""Arcanist Leggings"",
-        ""price"": 2,
-        ""id"": 16796,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16796""
-    },
-    {
-        ""name"": ""Arcanist Mantle"",
-        ""price"": 20,
-        ""id"": 16797,
-        ""fortank"": ""No"",
-        ""bosses"": ""Baron Geddon"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16797""
-    },
-    {
-        ""name"": ""Arcanist Robes"",
-        ""price"": 20,
-        ""id"": 16798,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16798""
-    },
-    {
-        ""name"": ""Arcanist Bindings"",
-        ""price"": 20,
-        ""id"": 16799,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16799""
-    },
-    {
-        ""name"": ""Arcanist Gloves"",
-        ""price"": 20,
-        ""id"": 16801,
-        ""fortank"": ""No"",
-        ""bosses"": ""Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16801""
-    },
-    {
-        ""name"": ""Arcanist Belt"",
-        ""price"": 20,
-        ""id"": 16802,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16802""
-    },
-    {
-        ""name"": ""Netherwind Pants"",
-        ""price"": 30,
-        ""id"": 16915,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16915""
-    },
-    {
-        ""name"": ""Nightslayer Chestpiece"",
-        ""price"": 20,
-        ""id"": 16820,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16820""
-    },
-    {
-        ""name"": ""Nightslayer Cover"",
-        ""price"": 2,
-        ""id"": 16821,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16821""
-    },
-    {
-        ""name"": ""Nightslayer Pants"",
-        ""price"": 2,
-        ""id"": 16822,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16822""
-    },
-    {
-        ""name"": ""Nightslayer Shoulder Pads"",
-        ""price"": 20,
-        ""id"": 16823,
-        ""fortank"": ""No"",
-        ""bosses"": ""Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16823""
-    },
-    {
-        ""name"": ""Nightslayer Boots"",
-        ""price"": 20,
-        ""id"": 16824,
-        ""fortank"": ""No"",
-        ""bosses"": ""Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16824""
-    },
-    {
-        ""name"": ""Nightslayer Bracelets"",
-        ""price"": 20,
-        ""id"": 16825,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16825""
-    },
-    {
-        ""name"": ""Nightslayer Gloves"",
-        ""price"": 20,
-        ""id"": 16826,
-        ""fortank"": ""No"",
-        ""bosses"": ""Gehennas"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16826""
-    },
-    {
-        ""name"": ""Nightslayer Belt"",
-        ""price"": 20,
-        ""id"": 16827,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16827""
-    },
-    {
-        ""name"": ""Bloodfang Pants"",
-        ""price"": 30,
-        ""id"": 16909,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16909""
-    },
-    {
-        ""name"": ""Giantstalker's Breastplate"",
-        ""price"": 20,
-        ""id"": 16845,
-        ""fortank"": ""No"",
-        ""bosses"": ""Golemagg"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16845""
-    },
-    {
-        ""name"": ""Giantstalker's Helmet"",
-        ""price"": 2,
-        ""id"": 16846,
-        ""fortank"": ""No"",
-        ""bosses"": ""Garr"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16846""
-    },
-    {
-        ""name"": ""Giantstalker's Leggings"",
-        ""price"": 2,
-        ""id"": 16847,
-        ""fortank"": ""No"",
-        ""bosses"": ""Magmadar"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16847""
-    },
-    {
-        ""name"": ""Giantstalker's Epaulets"",
-        ""price"": 20,
-        ""id"": 16848,
-        ""fortank"": ""No"",
-        ""bosses"": ""Sulfuron Harbinger"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16848""
-    },
-    {
-        ""name"": ""Giantstalker's Boots"",
-        ""price"": 20,
-        ""id"": 16849,
-        ""fortank"": ""No"",
-        ""bosses"": ""Gehennas"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16849""
-    },
-    {
-        ""name"": ""Giantstalker's Bracers"",
-        ""price"": 20,
-        ""id"": 16850,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16850""
-    },
-    {
-        ""name"": ""Giantstalker's Belt"",
-        ""price"": 20,
-        ""id"": 16851,
-        ""fortank"": ""No"",
-        ""bosses"": ""Trash"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16851""
-    },
-    {
-        ""name"": ""Giantstalker's Gloves"",
-        ""price"": 20,
-        ""id"": 16852,
-        ""fortank"": ""No"",
-        ""bosses"": ""Shazzrah"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16852""
-    },
-    {
-        ""name"": ""Dragonstalker's Legguards"",
-        ""price"": 30,
-        ""id"": 16938,
-        ""fortank"": ""No"",
-        ""bosses"": ""Ragnaros"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=16938""
-    },
-    {
-        ""name"": ""The Eye of Divinity"",
-        ""price"": 45,
-        ""id"": 18646,
-        ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18646""
-    },
-    {
-        ""name"": ""Ancient Petrified Leaf"",
+        ""name"": ""Boots of the Shadow Flame"",
         ""price"": 40,
-        ""id"": 18703,
+        ""id"": 19381,
         ""fortank"": ""No"",
-        ""bosses"": ""Major Domo"",
-        ""raid"": ""Molten Core"",
-        ""url"": ""https://classic.wowhead.com/item=18703""
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19381"",
+        ""type"": ""Leather Feet""
+    },
+    {
+        ""name"": ""Boots of Transcendence"",
+        ""price"": 20,
+        ""id"": 16919,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16919"",
+        ""type"": ""Cloth Feet""
+    },
+    {
+        ""name"": ""Bracelets of Wrath"",
+        ""price"": 15,
+        ""id"": 16959,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16959"",
+        ""type"": ""Plate Wrists""
+    },
+    {
+        ""name"": ""Bracers of Arcane Accuracy"",
+        ""price"": 25,
+        ""id"": 19374,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19374"",
+        ""type"": ""Cloth Wrists""
+    },
+    {
+        ""name"": ""Breastplate of Wrath"",
+        ""price"": 25,
+        ""id"": 16966,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16966"",
+        ""type"": ""Plate Chest""
+    },
+    {
+        ""name"": ""Chromatic Boots"",
+        ""price"": 65,
+        ""id"": 19387,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19387"",
+        ""type"": ""Plate Feet""
+    },
+    {
+        ""name"": ""Chromatically Tempered Sword"",
+        ""price"": 50,
+        ""id"": 19352,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19352"",
+        ""type"": ""One-hand Sword""
+    },
+    {
+        ""name"": ""Circle of Applied Force"",
+        ""price"": 10,
+        ""id"": 19432,
+        ""fortank"": ""No"",
+        ""bosses"": ""Flamegor"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19432"",
+        ""type"": ""Finger""
+    },
+    {
+        ""name"": ""Claw of Chromaggus"",
+        ""price"": 40,
+        ""id"": 19347,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19347"",
+        ""type"": ""One-hand Dagger""
+    },
+    {
+        ""name"": ""Claw of the Black Drake"",
+        ""price"": 5,
+        ""id"": 19365,
+        ""fortank"": ""No"",
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19365"",
+        ""type"": ""Main Hand Fist""
+    },
+    {
+        ""name"": ""Cloak of Draconic Might"",
+        ""price"": 30,
+        ""id"": 19436,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19436"",
+        ""type"": ""Cloth Back""
+    },
+    {
+        ""name"": ""Cloak of Firemaw"",
+        ""price"": 15,
+        ""id"": 19398,
+        ""fortank"": ""No"",
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19398"",
+        ""type"": ""Cloth Back""
+    },
+    {
+        ""name"": ""Cloak of the Brood Lord"",
+        ""price"": 20,
+        ""id"": 19378,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19378"",
+        ""type"": ""Cloth Back""
+    },
+    {
+        ""name"": ""Crul'shorukh, Edge of Chaos"",
+        ""price"": 20,
+        ""id"": 19363,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19363"",
+        ""type"": ""One-hand Axe""
+    },
+    {
+        ""name"": ""Doom's Edge"",
+        ""price"": 10,
+        ""id"": 19362,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19362"",
+        ""type"": ""One-hand Axe""
+    },
+    {
+        ""name"": ""Draconic Avenger"",
+        ""price"": 5,
+        ""id"": 19354,
+        ""fortank"": ""No"",
+        ""bosses"": ""Death Talon Wyrmguard"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19354"",
+        ""type"": ""Two-hand Axe""
+    },
+    {
+        ""name"": ""Draconic Maul"",
+        ""price"": 10,
+        ""id"": 19358,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19358"",
+        ""type"": ""Two-hand Mace""
+    },
+    {
+        ""name"": ""Dragon's Touch"",
+        ""price"": 5,
+        ""id"": 19367,
+        ""fortank"": ""No"",
+        ""bosses"": ""Flamegor"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19367"",
+        ""type"": ""Ranged Wand""
+    },
+    {
+        ""name"": ""Dragonbreath Hand Cannon"",
+        ""price"": 10,
+        ""id"": 19368,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Ebonroc"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19368"",
+        ""type"": ""Ranged Gun""
+    },
+    {
+        ""name"": ""Dragonfang Blade"",
+        ""price"": 40,
+        ""id"": 19346,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19346"",
+        ""type"": ""One-hand Dagger""
+    },
+    {
+        ""name"": ""Dragonstalker's Belt"",
+        ""price"": 15,
+        ""id"": 16936,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16936"",
+        ""type"": ""Mail Waist""
+    },
+    {
+        ""name"": ""Dragonstalker's Bracers"",
+        ""price"": 15,
+        ""id"": 16935,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16935"",
+        ""type"": ""Mail Wrists""
+    },
+    {
+        ""name"": ""Dragonstalker's Breastplate"",
+        ""price"": 25,
+        ""id"": 16942,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16942"",
+        ""type"": ""Mail Chest""
+    },
+    {
+        ""name"": ""Dragonstalker's Gauntlets"",
+        ""price"": 20,
+        ""id"": 16940,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16940"",
+        ""type"": ""Mail Hands""
+    },
+    {
+        ""name"": ""Dragonstalker's Greaves"",
+        ""price"": 20,
+        ""id"": 16941,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16941"",
+        ""type"": ""Mail Feet""
+    },
+    {
+        ""name"": ""Dragonstalker's Spaulders"",
+        ""price"": 40,
+        ""id"": 16937,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16937"",
+        ""type"": ""Mail Shoulders""
+    },
+    {
+        ""name"": ""Drake Fang Talisman"",
+        ""price"": 60,
+        ""id"": 19406,
+        ""fortank"": ""No"",
+        ""bosses"": ""Ebonroc"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19406"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Drake Talon Cleaver"",
+        ""price"": 30,
+        ""id"": 19353,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19353"",
+        ""type"": ""Two-hand Axe""
+    },
+    {
+        ""name"": ""Drake Talon Pauldrons"",
+        ""price"": 40,
+        ""id"": 19394,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19394"",
+        ""type"": ""Plate Shoulders""
+    },
+    {
+        ""name"": ""Ebony Flame Gloves"",
+        ""price"": 20,
+        ""id"": 19407,
+        ""fortank"": ""No"",
+        ""bosses"": ""Ebonroc"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19407"",
+        ""type"": ""Cloth Hands""
+    },
+    {
+        ""name"": ""Elementium Reinforced Bulwark"",
+        ""price"": 40,
+        ""id"": 19349,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19349"",
+        ""type"": ""Shield""
+    },
+    {
+        ""name"": ""Elementium Threaded Cloak"",
+        ""price"": 20,
+        ""id"": 19386,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19386"",
+        ""type"": ""Cloth Back""
+    },
+    {
+        ""name"": ""Emberweave Leggings"",
+        ""price"": 0,
+        ""id"": 19433,
+        ""fortank"": ""No"",
+        ""bosses"": ""Flamegor"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19433"",
+        ""type"": ""Mail Legs""
+    },
+    {
+        ""name"": ""Empowered Leggings"",
+        ""price"": 30,
+        ""id"": 19385,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19385"",
+        ""type"": ""Cloth Legs""
+    },
+    {
+        ""name"": ""Essence Gatherer"",
+        ""price"": 10,
+        ""id"": 19435,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19435"",
+        ""type"": ""Ranged Wand""
+    },
+    {
+        ""name"": ""Firemaw's Clutch"",
+        ""price"": 15,
+        ""id"": 19400,
+        ""fortank"": ""No"",
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19400"",
+        ""type"": ""Cloth Waist""
+    },
+    {
+        ""name"": ""Gauntlets of Wrath"",
+        ""price"": 20,
+        ""id"": 16964,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16964"",
+        ""type"": ""Plate Hands""
+    },
+    {
+        ""name"": ""Girdle of the Fallen Crusader"",
+        ""price"": 2,
+        ""id"": 19392,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19392"",
+        ""type"": ""Plate Waist""
+    },
+    {
+        ""name"": ""Gloves of Rapid Evolution"",
+        ""price"": 2,
+        ""id"": 19369,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19369"",
+        ""type"": ""Cloth Hands""
+    },
+    {
+        ""name"": ""Handguards of Transcendence"",
+        ""price"": 20,
+        ""id"": 16920,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16920"",
+        ""type"": ""Cloth Hands""
+    },
+    {
+        ""name"": ""Head of Nefarian"",
+        ""price"": 30,
+        ""id"": 19002,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19002"",
+        ""type"": ""Bloody Head""
+    },
+    {
+        ""name"": ""Heartstriker"",
+        ""price"": 2,
+        ""id"": 19350,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19350"",
+        ""type"": ""Ranged Bow""
+    },
+    {
+        ""name"": ""Helm of Endless Rage"",
+        ""price"": 10,
+        ""id"": 19372,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19372"",
+        ""type"": ""Plate Head""
+    },
+    {
+        ""name"": ""Herald of Woe"",
+        ""price"": 20,
+        ""id"": 19357,
+        ""fortank"": ""No"",
+        ""bosses"": ""Flamegor"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19357"",
+        ""type"": ""Two-hand Mace""
+    },
+    {
+        ""name"": ""Interlaced Shadow Jerkin"",
+        ""price"": 2,
+        ""id"": 19439,
+        ""fortank"": ""No"",
+        ""bosses"": ""Death Talon Wyrmguard"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19439"",
+        ""type"": ""Leather Chest""
+    },
+    {
+        ""name"": ""Judgement Belt"",
+        ""price"": 5,
+        ""id"": 16952,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16952"",
+        ""type"": ""Plate Waist""
+    },
+    {
+        ""name"": ""Judgement Bindings"",
+        ""price"": 5,
+        ""id"": 16951,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16951"",
+        ""type"": ""Plate Wrists""
+    },
+    {
+        ""name"": ""Judgement Breastplate"",
+        ""price"": 15,
+        ""id"": 16958,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16958"",
+        ""type"": ""Plate Chest""
+    },
+    {
+        ""name"": ""Judgement Gauntlets"",
+        ""price"": 10,
+        ""id"": 16956,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16956"",
+        ""type"": ""Plate Hands""
+    },
+    {
+        ""name"": ""Judgement Sabatons"",
+        ""price"": 10,
+        ""id"": 16957,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16957"",
+        ""type"": ""Plate Feet""
+    },
+    {
+        ""name"": ""Judgement Spaulders"",
+        ""price"": 10,
+        ""id"": 16953,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16953"",
+        ""type"": ""Plate Shoulders""
+    },
+    {
+        ""name"": ""Legguards of the Fallen Crusader"",
+        ""price"": 50,
+        ""id"": 19402,
+        ""fortank"": ""No"",
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19402"",
+        ""type"": ""Plate Legs""
+    },
+    {
+        ""name"": ""Lifegiving Gem"",
+        ""price"": 0,
+        ""id"": 19341,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19341"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Lok'amir il Romathis"",
+        ""price"": 45,
+        ""id"": 19360,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19360"",
+        ""type"": ""Main Hand Mace""
+    },
+    {
+        ""name"": ""Maladath, Runed Blade of the Black Flight"",
+        ""price"": 40,
+        ""id"": 19351,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19351"",
+        ""type"": ""One-hand Sword""
+    },
+    {
+        ""name"": ""Malfurion's Blessed Bulwark"",
+        ""price"": 40,
+        ""id"": 19405,
+        ""fortank"": ""No"",
+        ""bosses"": ""Ebonroc"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19405"",
+        ""type"": ""Leather Chest""
+    },
+    {
+        ""name"": ""Mantle of the Blackwing Cabal"",
+        ""price"": 30,
+        ""id"": 19370,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19370"",
+        ""type"": ""Cloth Shoulders""
+    },
+    {
+        ""name"": ""Mind Quickening Gem"",
+        ""price"": 10,
+        ""id"": 19339,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19339"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Mish'undare, Circlet of the Mind Flayer"",
+        ""price"": 40,
+        ""id"": 19375,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19375"",
+        ""type"": ""Cloth Head""
+    },
+    {
+        ""name"": ""Neltharion's Tear"",
+        ""price"": 60,
+        ""id"": 19379,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19379"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Nemesis Belt"",
+        ""price"": 5,
+        ""id"": 16933,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16933"",
+        ""type"": ""Cloth Waist""
+    },
+    {
+        ""name"": ""Nemesis Boots"",
+        ""price"": 10,
+        ""id"": 16927,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16927"",
+        ""type"": ""Cloth Feet""
+    },
+    {
+        ""name"": ""Nemesis Bracers"",
+        ""price"": 5,
+        ""id"": 16934,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16934"",
+        ""type"": ""Cloth Wrists""
+    },
+    {
+        ""name"": ""Nemesis Gloves"",
+        ""price"": 10,
+        ""id"": 16928,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16928"",
+        ""type"": ""Cloth Hands""
+    },
+    {
+        ""name"": ""Nemesis Robes"",
+        ""price"": 15,
+        ""id"": 16931,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16931"",
+        ""type"": ""Cloth Chest""
+    },
+    {
+        ""name"": ""Nemesis Spaulders"",
+        ""price"": 10,
+        ""id"": 16932,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16932"",
+        ""type"": ""Cloth Shoulders""
+    },
+    {
+        ""name"": ""Netherwind Belt"",
+        ""price"": 5,
+        ""id"": 16818,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16818"",
+        ""type"": ""Cloth Waist""
+    },
+    {
+        ""name"": ""Netherwind Bindings"",
+        ""price"": 10,
+        ""id"": 16918,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16918"",
+        ""type"": ""Cloth Wrists""
+    },
+    {
+        ""name"": ""Netherwind Boots"",
+        ""price"": 10,
+        ""id"": 16912,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16912"",
+        ""type"": ""Cloth Feet""
+    },
+    {
+        ""name"": ""Netherwind Gloves"",
+        ""price"": 20,
+        ""id"": 16913,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16913"",
+        ""type"": ""Cloth Hands""
+    },
+    {
+        ""name"": ""Netherwind Mantle"",
+        ""price"": 10,
+        ""id"": 16917,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16917"",
+        ""type"": ""Cloth Shoulders""
+    },
+    {
+        ""name"": ""Netherwind Robes"",
+        ""price"": 15,
+        ""id"": 16916,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16916"",
+        ""type"": ""Cloth Chest""
+    },
+    {
+        ""name"": ""Pauldrons of Transcendence"",
+        ""price"": 40,
+        ""id"": 16924,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16924"",
+        ""type"": ""Cloth Shoulders""
+    },
+    {
+        ""name"": ""Pauldrons of Wrath"",
+        ""price"": 20,
+        ""id"": 16961,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16961"",
+        ""type"": ""Plate Shoulders""
+    },
+    {
+        ""name"": ""Pendant of the Fallen Dragon"",
+        ""price"": 2,
+        ""id"": 19371,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19371"",
+        ""type"": ""Neck""
+    },
+    {
+        ""name"": ""Prestor's Talisman of Connivery"",
+        ""price"": 10,
+        ""id"": 19377,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19377"",
+        ""type"": ""Neck""
+    },
+    {
+        ""name"": ""Primalist's Linked Legguards"",
+        ""price"": 0,
+        ""id"": 19401,
+        ""fortank"": ""No"",
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19401"",
+        ""type"": ""Mail Legs""
+    },
+    {
+        ""name"": ""Primalist's Linked Waistguard"",
+        ""price"": 0,
+        ""id"": 19393,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19393"",
+        ""type"": ""Mail Waist""
+    },
+    {
+        ""name"": ""Pure Elementium Band"",
+        ""price"": 40,
+        ""id"": 19382,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19382"",
+        ""type"": ""Finger""
+    },
+    {
+        ""name"": ""Red Dragonscale Protector"",
+        ""price"": 15,
+        ""id"": 19348,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19348"",
+        ""type"": ""Shield""
+    },
+    {
+        ""name"": ""Rejuvenating Gem"",
+        ""price"": 60,
+        ""id"": 19395,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19395"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Ring of Blackrock"",
+        ""price"": 10,
+        ""id"": 19397,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19397"",
+        ""type"": ""Finger""
+    },
+    {
+        ""name"": ""Ringo's Blizzard Boots"",
+        ""price"": 30,
+        ""id"": 19438,
+        ""fortank"": ""No"",
+        ""bosses"": ""Death Talon Wyrmguard"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19438"",
+        ""type"": ""Cloth Feet""
+    },
+    {
+        ""name"": ""Robes of Transcendence"",
+        ""price"": 25,
+        ""id"": 16923,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16923"",
+        ""type"": ""Cloth Chest""
+    },
+    {
+        ""name"": ""Rune of Metamorphosis"",
+        ""price"": 0,
+        ""id"": 19340,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19340"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Sabatons of Wrath"",
+        ""price"": 20,
+        ""id"": 16965,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16965"",
+        ""type"": ""Plate Feet""
+    },
+    {
+        ""name"": ""Scrolls of Blinding Light"",
+        ""price"": 0,
+        ""id"": 19343,
+        ""fortank"": ""No"",
+        ""bosses"": ""Firemaw"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19343"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Shadow Wing Focus Staff"",
+        ""price"": 10,
+        ""id"": 19355,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19355"",
+        ""type"": ""Two-hand Staff""
+    },
+    {
+        ""name"": ""Shimmering Geta"",
+        ""price"": 2,
+        ""id"": 19391,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19391"",
+        ""type"": ""Cloth Feet""
+    },
+    {
+        ""name"": ""Shroud of Pure Thought"",
+        ""price"": 10,
+        ""id"": 19430,
+        ""fortank"": ""No"",
+        ""bosses"": ""Flamegor"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19430"",
+        ""type"": ""Cloth Back""
+    },
+    {
+        ""name"": ""Spineshatter"",
+        ""price"": 50,
+        ""id"": 19335,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19335"",
+        ""type"": ""Main Hand Mace""
+    },
+    {
+        ""name"": ""Staff of the Shadow Flame"",
+        ""price"": 65,
+        ""id"": 19356,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19356"",
+        ""type"": ""Two-hand Staff""
+    },
+    {
+        ""name"": ""Stormrage Belt"",
+        ""price"": 15,
+        ""id"": 16903,
+        ""fortank"": ""No"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16903"",
+        ""type"": ""Leather Waist""
+    },
+    {
+        ""name"": ""Stormrage Boots"",
+        ""price"": 20,
+        ""id"": 16898,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16898"",
+        ""type"": ""Leather Feet""
+    },
+    {
+        ""name"": ""Stormrage Bracers"",
+        ""price"": 15,
+        ""id"": 16904,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16904"",
+        ""type"": ""Leather Wrists""
+    },
+    {
+        ""name"": ""Stormrage Chestguard"",
+        ""price"": 25,
+        ""id"": 16897,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16897"",
+        ""type"": ""Leather Chest""
+    },
+    {
+        ""name"": ""Stormrage Handguards"",
+        ""price"": 30,
+        ""id"": 16899,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16899"",
+        ""type"": ""Leather Hands""
+    },
+    {
+        ""name"": ""Stormrage Pauldrons"",
+        ""price"": 20,
+        ""id"": 16902,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16902"",
+        ""type"": ""Leather Shoulders""
+    },
+    {
+        ""name"": ""Styleen's Impeding Scarab"",
+        ""price"": 60,
+        ""id"": 19431,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Flamegor"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19431"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Taut Dragonhide Belt"",
+        ""price"": 2,
+        ""id"": 19396,
+        ""fortank"": ""No"",
+        ""bosses"": ""Zone Drop"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19396"",
+        ""type"": ""Leather Waist""
+    },
+    {
+        ""name"": ""Taut Dragonhide Gloves"",
+        ""price"": 10,
+        ""id"": 19390,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19390"",
+        ""type"": ""Leather Hands""
+    },
+    {
+        ""name"": ""Taut Dragonhide Shoulderpads"",
+        ""price"": 30,
+        ""id"": 19389,
+        ""fortank"": ""No"",
+        ""bosses"": ""Chromaggus"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19389"",
+        ""type"": ""Leather Shoulders""
+    },
+    {
+        ""name"": ""The Black Book"",
+        ""price"": 0,
+        ""id"": 19337,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19337"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""The Untamed Blade"",
+        ""price"": 50,
+        ""id"": 19334,
+        ""fortank"": ""No"",
+        ""bosses"": ""Razorgore the Untamed"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19334"",
+        ""type"": ""Two-hand Sword""
+    },
+    {
+        ""name"": ""Therazane's Link"",
+        ""price"": 2,
+        ""id"": 19380,
+        ""fortank"": ""No"",
+        ""bosses"": ""Nefarian"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19380"",
+        ""type"": ""Mail Waist""
+    },
+    {
+        ""name"": ""Venomous Totem"",
+        ""price"": 0,
+        ""id"": 19342,
+        ""fortank"": ""No"",
+        ""bosses"": ""Broodlord Lashlayer"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=19342"",
+        ""type"": ""Trinket""
+    },
+    {
+        ""name"": ""Waistband of Wrath"",
+        ""price"": 15,
+        ""id"": 16960,
+        ""fortank"": ""Yes"",
+        ""bosses"": ""Vaelastrasz the Corrupt"",
+        ""raid"": ""Blackwing Lair"",
+        ""url"": ""https://classic.wowhead.com/item=16960"",
+        ""type"": ""Plate Waist""
     }
 ]";
             var data = JsonConvert.DeserializeObject<object[]>(raid_drop_data);
