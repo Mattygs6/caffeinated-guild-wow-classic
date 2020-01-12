@@ -28,7 +28,7 @@
             color: darkgoldenrod;
             margin-bottom: 0px;
         }
-        h3, h3 a {
+        h3, h3 a, h3 a:hover {
             color: goldenrod;
         }
         h4 {
@@ -300,25 +300,37 @@
             </div>
         </div>
         <script>
-            $('[image-id]').hover(function(e){
-                var $id = $(this).attr('image-id');
-                $('#' + $id).find('img').show();
-            }, function(e){
-                var $id = $(this).attr('image-id');
-                $('#' + $id + ' img').hide();
-            });
-            $('[image-id]').mousemove(function(e){
-                var width = $(document).outerWidth();
-                var $id = $(this).attr('image-id');
-                var $imgContainer = $('#' + $id);
-                var imgTag = $imgContainer.find('img');
-                var imgWidth = imgTag.outerWidth();
-                var left = e.pageX - 25;
-                if (left + imgWidth > width) {
-                    left = width - imgWidth;
-                }
-                $imgContainer.offset({ top: e.pageY + 25 , left: left });
-            })
+            (function($) {
+                $('[image-id]').hover(function(e){
+                    var $id = $(this).attr('image-id');
+                    $('#' + $id).find('img').show();
+                }, function(e){
+                    var $id = $(this).attr('image-id');
+                    $('#' + $id + ' img').hide();
+                });
+
+                $('[image-id]').mousemove(function(e){
+                    var width = $(document).outerWidth();
+                    var $id = $(this).attr('image-id');
+                    var $imgContainer = $('#' + $id);
+                    var imgTag = $imgContainer.find('img');
+                    var imgWidth = imgTag.outerWidth();
+                    var left = e.pageX - 25;
+                    if (left + imgWidth > width) {
+                        left = width - imgWidth;
+                    }
+                    $imgContainer.offset({ top: e.pageY + 25 , left: left });
+                })
+                
+                $('a')
+                .filter('[href^="http"], [href^="//"]')
+                .not('[href*="' + window.location.host + '"]')
+                .attr({
+                    rel: 'noreferrer noopener',
+                    target: '_blank'
+                })
+
+            }(jQuery));
         </script>
     </body>
 </html>
