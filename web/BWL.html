@@ -267,10 +267,10 @@
                 <!-- TODO: Only your moans -->
                 <h4>Tanks: 2-5 Based on DPS</h4>
                 <p>This fight is started by speaking with Vaelstrasz.</p>
-                <p>If the fight lasts longer than three minutes, it will most likely be a wipe because <a href="https://classic.wowhead.com/spell=23513/essence-of-the-red" class="q1" image-id="essence-of-the-red">Essence of the Red</a>
+                <p>If the fight lasts longer than three minutes, it will most likely be a wipe because <a href="https://classic.wowhead.com/spell=23513/essence-of-the-red" class="q1" img-src="img/essence_of_the_red.png">Essence of the Red</a>
                         runs out. Tanks should find a good balance between threat and fire resist gear. 1.3 or 1.4 speed weapon suggested (or Eskhandar Claw)</p>
                 
-                <p>Every 15 seconds, Vaelastrasz will cast <a href="https://classic.wowhead.com/spell=18173/burning-adrenaline" class="q1" image-id="burning-adrenaline">Burning Adrenaline</a>
+                <p>Every 15 seconds, Vaelastrasz will cast <a href="https://classic.wowhead.com/spell=18173/burning-adrenaline" class="q1" img-src="img/burning_adrenaline.png">Burning Adrenaline</a>
                     , which does increase damage by 100%, but will kill the target after 20 seconds. Anyone (besides your tank) who receives the buff needs to run
                     far away from the rest of the raid to not kill anyone when they die.  This should only be cast on mana users and the Main Tank every third time.
                         When the tank gets the debuff, the next tank should start moving into position to take over.</p>
@@ -292,27 +292,64 @@
                     </dd>
                 </dl>
             </div>
-            <div id="burning-adrenaline" style="position: absolute;">
-                <img style="display: none;" src="img/burning_adrenaline.png"/>
+            <div id="broodlord-lashlayer" class="boss-encounter col-xl-8">
+                <h3><a href="https://classic.wowhead.com/npc=12017">Broodlord Lashlayer</a></h3>
+                <p>Most of the difficulty in the fight is in reaching the boss, which requires some finesse. This is because there of the
+                    suppression rooms which are filled with <b>Suppression Devices</b>.</p>
+                <p>These can be difficult because they create <a href="https://classic.wowhead.com/spell=22247" class="q1" img-src="img/suppression_aura.png">Suppression
+                    Aura</a>, which will make everything <b>five</b> times slower. It's like being stuck in a molasses flood, while the
+                    enemies don’t mind it at all.</p>
+                <p>Each <b>Suppression Device</b> is guarded by whelps that should be AOEd. These whelps will respawn after 30
+                     seconds, so you must move quickly between traps. The devices can be turned off by rogues using Disarm Trap. 
+                     Throughout the gauntlet, 2-3 rogues should be Stealthed 100% of the time and use Distract to help them
+                     turn off the devices. One of these rogues should be checking the rear devices to make sure the back end 
+                     of the raid doesn't get slowed while moving forward.</p>
+                <p>There are also some stronger mobs called <a href="https://classic.wowhead.com/npc=12468" class="q1">Death Talon Hatcher</a>s. The hatchers respawn after 20 minutes and should
+                     be killed by hunters and melee DPS.</p>
+                <p>To properly set the fight up, have your main tank pull the boss and head to the nearest corner. Your offtanks will
+                    follow and set up 90 degrees away from the main tank to avoid <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
+                    They can start generating threat after a few seconds. DPS can start <b>when the offtanks are in place</b>! Depending on threat
+                    generation, this should be 15-30 seconds.</p>
+                <p>The biggest problem with the fight is <a href="https://classic.wowhead.com/spell=18670" class="q1">Knock Away</a>, which
+                     will be used frequently and will reduce the threat of your current tank by half. The new tank with highest threat
+                     should move to where the previous main tank was. Your DPSers should always make sure they are under the second tanks&apos; threat value.
+                    Threat may also be an issue for healers during this fight.</p>
+                <p>Approximately every 25 seconds, the boss will use <a href="https://classic.wowhead.com/spell=24573" class="q1">Mortal Strike</a> for
+                    more than 5,000 damage, which will also apply the healing debuff. The priest with the most +healing gear in raid should cast 
+                    a <a href="https://classic.wowhead.com/spell=27607" class="q1">Power Word: Shield</a> on the tank for a buffer
+                     as it is twice as effective as a heal while the debuff is active.</p>
+                <dl>
+                    <dt>Noteworthy Abilities:</dt>
+                    <dd>
+                        <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
+                    </dd>
+                    <dd>
+                        <a href="https://classic.wowhead.com/spell=18670" class="q1">Knock Away</a>
+                    </dd>
+                    <dd>
+                        <a href="https://classic.wowhead.com/spell=23331" class="q1">Blast Wave</a>
+                    </dd>
+                    <dd>
+                        <a href="https://classic.wowhead.com/spell=24573" class="q1">Mortal Strike</a>
+                    </dd>
+                </dl>
             </div>
-            <div id="essence-of-the-red" style="position: absolute;">
-                <img style="display: none;" src="img/essence_of_the_red.png"/>
+            <div id="img-tooltip" style="position: absolute;">
+                <img style="display: none;" src=""/>
             </div>
         </div>
         <script>
             (function($) {
-                $('[image-id]').hover(function(e){
-                    var $id = $(this).attr('image-id');
-                    $('#' + $id).find('img').show();
+                $('[img-src]').hover(function(e){
+                    var $src = $(this).attr('img-src');
+                    $('#img-tooltip img').attr('src', $src).show();
                 }, function(e){
-                    var $id = $(this).attr('image-id');
-                    $('#' + $id + ' img').hide();
+                    $('#img-tooltip img').attr('src', '').hide();
                 });
 
-                $('[image-id]').mousemove(function(e){
+                $('[img-src]').mousemove(function(e){
                     var width = $(document).outerWidth();
-                    var $id = $(this).attr('image-id');
-                    var $imgContainer = $('#' + $id);
+                    var $imgContainer = $('#img-tooltip');
                     var imgTag = $imgContainer.find('img');
                     var imgWidth = imgTag.outerWidth();
                     var left = e.pageX - 25;
@@ -321,7 +358,7 @@
                     }
                     $imgContainer.offset({ top: e.pageY + 25 , left: left });
                 })
-                
+
                 $('a')
                 .filter('[href^="http"], [href^="//"]')
                 .not('[href*="' + window.location.host + '"]')
