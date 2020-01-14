@@ -1,5 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+
+        <title>Caffeinated's Blackwing Lair Guide</title>
+        <meta name="description" content="Caffeinated's Blackwing Lair Guide">
+        <meta name="author" content="Mattyg">
+
         <script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
         <script src="https://wow.zamimg.com/widgets/power.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -50,6 +57,9 @@
             content: '\2713';
             margin: 0 1em;
         }
+        li, dd {
+            margin-bottom: .5em;
+        }
         dl dd:before {
             margin: 0 1em;
         }
@@ -63,281 +73,322 @@
         .boss-encounter {
             border: 2px solid #dadada;
             border-radius: 10px;
-            padding: 20px;
+            padding: 0 20px;
             margin: 1.5em 0;
             box-shadow: 3px 3px 0px 0px #a7bdc7,
             5px 5px 0px 0px #878787;
         }
-
-        #raid-preparation li, dd {
-            margin-bottom: .5em;
-        }
         </style>
     </head>
     <body>
-        <h1><a href="https://classic.wowhead.com/blackwing-lair" class="q1">Blackwing Lair</a></h1>
         <div id="bwl-strategy-container" class="container-fluid">
-            <div class="row">
-                <div id="intro" class="col-xl-9 col-lg-7">
-                    <p>Thanks for checking out our strategies for Blackwing Lair! BWL is a 40 man raid and has eight boss encounters. We will be clearing this as our main raid during phase 3 and 4 of WoW Classic!</p>
-                    <p>First things first, getting attuned</p>
-                    <ol>
-                        <li>
-                            Kill the <a href="https://classic.wowhead.com/npc=9046/scarshield-quartermaster" class="q1">Scarshield Quartermaster</a> inside Blackrock Mountain between the <a href="https://classic.wowhead.com/object=179879/orb-of-command" class="q1">Orb of Command</a> and Blackrock Spire.
-                        </li>
-                        <li>
-                            Loot the <a href="https://classic.wowhead.com/item=18987/blackhands-command">Blackhand&apos;s Command</a> and accept the quest.
-                        </li>
-                        <li>
-                            Clear UBRS and interact with the Orb of Ascension where General Drakkisath is.
-                        </li>
-                    </ol>
+            <header role="heading">
+                <div class="row">
+                    <div class="col-12">
+                        <h1><a href="https://classic.wowhead.com/blackwing-lair" class="q1">Blackwing Lair</a></h1>
+                    </div>
                 </div>
-                <div class="col-xl-3 col-lg-5 text-center">
-                    <img src="https://wow.zamimg.com/images/wow/classic/maps/enus/normal/2677.jpg?32790" class="img-fluid"/>
+            </header>
+            <main role="main">
+                <section id="intro">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-7">
+                            <p>Thanks for checking out our strategies for Blackwing Lair! BWL is a 40 man raid and has eight boss encounters. We will be clearing this as our main raid during phase 3 and 4 of WoW Classic!</p>
+                            <p>First things first, getting attuned</p>
+                            <ol>
+                                <li>
+                                    Kill the <a href="https://classic.wowhead.com/npc=9046/scarshield-quartermaster" class="q1">Scarshield Quartermaster</a> inside Blackrock Mountain between the <a href="https://classic.wowhead.com/object=179879/orb-of-command" class="q1">Orb of Command</a> and Blackrock Spire.
+                                </li>
+                                <li>
+                                    Loot the <a href="https://classic.wowhead.com/item=18987/blackhands-command">Blackhand&apos;s Command</a> and accept the quest.
+                                </li>
+                                <li>
+                                    Clear UBRS and interact with the Orb of Ascension where General Drakkisath is.
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 text-center">
+                            <img src="https://wow.zamimg.com/images/wow/classic/maps/enus/normal/2677.jpg?32790" class="img-fluid"/>
+                        </div>
+                    </div>
+                </section>
+                <section id="raid-preparation">
+                    <header>
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <h2>Raid Preparation</h2>
+                                <hr/>
+                                <p>We expect our members to come to raid with at least four enchants on their gear as well as some consumables.  Everyone
+                                        should have some <a href="https://classic.wowhead.com/item=13446/major-healing-potion">Major Healing Potion</a>s as well as the following</p>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <h4>Melee DPS</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
+                                    <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=12451/juju-power">Juju Power</a> or
+                                    <a href="https://classic.wowhead.com/item=9206/elixir-of-giants">Elixir of Giants</a>
+                                </li>
+                                <li>
+                                        <a href="https://classic.wowhead.com/item=12460/juju-might">Juju Might</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://classic.wowhead.com/item=12820/winterfall-firewater">Winterfall Firewater</a>
+                                    </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=18262/elemental-sharpening-stone">Elemental Sharpening Stone</a> or 
+                                    <a href="https://classic.wowhead.com/item=12404/dense-sharpening-stone">Dense Sharpening Stone</a> or
+                                    <a href="https://classic.wowhead.com/item=8928/instant-poison-vi">Instant Poison</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13928/grilled-squid">Grilled Squid</a> or 
+                                    <a href="https://classic.wowhead.com/item=13810/blessed-sunfruit">Blessed Sunfruit</a> or
+                                    <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
+                                    <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
+                                </li>
+                            </ul>
+                            <h4>Hunters</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
+                                    <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=12460/juju-might">Juju Might</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13928/grilled-squid">Grilled Squid</a> or 
+                                    <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
+                                    <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
+                                </li>
+                            </ul>
+                            <h4>Caster DPS</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=9264/elixir-of-shadow-power">Elixir of Shadow Power</a> or
+                                    <a href="https://classic.wowhead.com/item=17708/elixir-of-frost-power">Elixir of Frost Power</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13454/greater-arcane-elixir">Greater Arcane Elixir</a> or
+                                    <a href="https://classic.wowhead.com/item=9155/arcane-elixir">Arcane Elixir</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13444/major-mana-potion">Major Mana Potion</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=18254/runn-tum-tuber-surprise">Runn Tum Tuber Surprise</a> or
+                                    <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
+                                    <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a> or
+                                    <a href="https://classic.wowhead.com/item=13931/nightfin-soup">Nightfin Soup</a>
+                                </li>
+                                <li>
+                                    Optional: <a href="https://classic.wowhead.com/item=13512/flask-of-supreme-power">Flask of Supreme Power</a>
+                                </li>
+                            </ul>
+                            <h4>Healers</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13444/major-mana-potion">Major Mana Potion</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13931/nightfin-soup">Nightfin Soup</a> or
+                                    <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
+                                    <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
+                                </li>
+                                <li>
+                                    Optional: <a href="https://classic.wowhead.com/item=13511/flask-of-distilled-wisdom">Flask of Distilled Wisdom</a>
+                                </li>
+                            </ul>
+                            <h4>Tanks</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13455/greater-stoneshield-potion">Greater Stoneshield Potion</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
+                                    <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=12451/juju-power">Juju Power</a> or
+                                    <a href="https://classic.wowhead.com/item=9206/elixir-of-giants">Elixir of Giants</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=12460/juju-might">Juju Might</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=12820/winterfall-firewater">Winterfall Firewater</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=18262/elemental-sharpening-stone">Elemental Sharpening Stone</a> or 
+                                    <a href="https://classic.wowhead.com/item=12404/dense-sharpening-stone">Dense Sharpening Stone</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=21151/rumsey-rum-black-label">Rumsey Rum Black Label</a> or
+                                    <a href="https://classic.wowhead.com/item=21114/rumsey-rum-dark">Rumsey Rum Dark</a> or
+                                    <a href="https://classic.wowhead.com/item=18269/gordok-green-grog">Gordok Green Grog</a>
+                                </li>
+                                <li>
+                                    <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
+                                    <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a> or
+                                    <a href="https://classic.wowhead.com/item=13928/grilled-squid">Grilled Squid</a> or 
+                                    <a href="https://classic.wowhead.com/item=13810/blessed-sunfruit">Blessed Sunfruit</a>
+                                </li>
+                                <li>
+                                    Optional or Guild provided: <a href="https://classic.wowhead.com/item=13510/flask-of-the-titans">Flask of the Titans</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="boss-encounters">
+                    <header>
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <h2>Boss Encounters</h2>
+                                <hr/>
+                            </div>
+                        </div>
+                    </header>
+                    <article id="razorgore-the-untamed">
+                        <div class="row">
+                            <!-- TODO: List abilities -->
+                            <div class="col-xl-8">
+                                <div class="boss-encounter">
+                                    <h3><a href="https://classic.wowhead.com/npc=12435/razorgore-the-untamed">Razorgore the Untamed</a></h3>
+                                    <h4>Tanks: 4</h4>
+                                    <p>The first boss fight has two phases; egg phase and burn phase. The egg phase is first and we will split the raid into
+                                        four groups and send a team to each corner of the room.</p>
+                                    <h4 id="phase-1-egg">Phase 1 (Egg)</h4>
+                                    <p>We will most likely have 1-2 Paladins controlling Razorgore via the <a href="https://classic.wowhead.com/object=177808/orb-of-domination" class="q1">Orb of Domination</a>
+                                            to destroy the eggs in the room using <a href="https://classic.wowhead.com/spell=19873/destroy-egg" class="q1">Destroy Egg</a>.
+                                        While this is happening, the four teams will kill the adds that are spawning with priority Mage > Dragon > Legionaire.  We
+                                            will have hunters available to kite Dragons if we fall behind in DPS.</p>
+                                    <h4 id="phase-2-burn">Phase 2 (Burn)</h4>
+                                    <p>As soon as the last egg is destroyed, the Paladin who was controlling Razorgore will run to the tanks.  The tanks will
+                                            pick up Razorgore and stand at about a 90 degree angle from each other.  Melee will be behind the boss. Razorgore will
+                                            occasionally cast <a href="https://classic.wowhead.com/spell=16805/conflagration" class="q1">Conflagration</a>
+                                            on the tank so a secondary tank will be needed for this phase.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                
+                            </div>
+                        </div>
+                    </article>
+                    <article id="vaelastrasz-the-corrupt">
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <div class="boss-encounter">
+                                    <h3><a href="https://classic.wowhead.com/npc=13020/vaelastrasz-the-corrupt">Vaelastrasz the Corrupt</a></h3>
+                                    <!-- TODO: Only your moans -->
+                                    <h4>Tanks: 2-5 Based on DPS</h4>
+                                    <p>This fight is started by speaking with Vaelstrasz.</p>
+                                    <p>If the fight lasts longer than three minutes, it will most likely be a wipe because <a href="https://classic.wowhead.com/spell=23513/essence-of-the-red" class="q1" img-src="img/essence_of_the_red.png">Essence of the Red</a>
+                                            runs out. Tanks should find a good balance between threat and fire resist gear. 1.3 or 1.4 speed weapon suggested (or Eskhandar Claw)</p>
+                                    
+                                    <p>Every 15 seconds, Vaelastrasz will cast <a href="https://classic.wowhead.com/spell=18173/burning-adrenaline" class="q1" img-src="img/burning_adrenaline.png">Burning Adrenaline</a>
+                                        , which does increase damage by 100%, but will kill the target after 20 seconds. Anyone (besides your tank) who receives the buff needs to run
+                                        far away from the rest of the raid to not kill anyone when they die.  This should only be cast on mana users and the Main Tank every third time.
+                                            When the tank gets the debuff, the next tank should start moving into position to take over.</p>
+                                    <!-- TODO: Tail sweep -->
+                                    <p>The best way to position him is by having your warriors at least 90 degrees away from the current tank, near his
+                                        <b>left</b> shoulder. Melee DPS should be on the other side of the boss, staying in between his front and rear
+                                        <b>right</b> legs. All casters, ranged DPS, and healers should be next to the wall directly across from the
+                                        warriors (melee DPS side) on the other side of Vaelestrasz.</p>
+                                    <dl>
+                                        <dt>Noteworthy Abilities:</dt>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=15847" class="q1">Tail Sweep</a>
+                                        </dd>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=19983" class="q1">Cleave</a>
+                                        </dd>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=23461" class="q1">Flame Breath</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+            
+                            </div>
+                        </div>
+                    </article>
+                    <article id="broodlord-lashlayer">
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <div class="boss-encounter">
+                                    <h3><a href="https://classic.wowhead.com/npc=12017">Broodlord Lashlayer</a></h3>
+                                    <h4>Tanks: 3</h4>
+                                    <p>Most of the difficulty in the fight is in reaching the boss, which requires some finesse. This is because there of the
+                                        suppression rooms which are filled with <b>Suppression Devices</b>.</p>
+                                    <p>These can be difficult because they create <a href="https://classic.wowhead.com/spell=22247" class="q1" img-src="img/suppression_aura.png">Suppression
+                                        Aura</a>, which will make everything <b>five</b> times slower. It's like being stuck in a molasses flood, while the
+                                        enemies don’t mind it at all.</p>
+                                    <p>Each <b>Suppression Device</b> is guarded by whelps that should be AOEd. These whelps will respawn after 30
+                                         seconds, so you must move quickly between traps. The devices can be turned off by rogues using Disarm Trap. 
+                                         Throughout the gauntlet, 2-3 rogues should be Stealthed 100% of the time and use Distract to help them
+                                         turn off the devices. One of these rogues should be checking the rear devices to make sure the back end 
+                                         of the raid doesn't get slowed while moving forward.</p>
+                                    <p>There are also some stronger mobs called <a href="https://classic.wowhead.com/npc=12468" class="q1">Death Talon Hatcher</a>s. The hatchers respawn after 20 minutes and should
+                                         be killed by hunters and melee DPS.</p>
+                                    <p>To properly set the fight up, have your main tank pull the boss and head to the nearest corner. Your offtanks will
+                                        follow and set up 90 degrees away from the main tank to avoid <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
+                                        They can start generating threat after a few seconds. DPS can start <b>when the offtanks are in place</b>! Depending on threat
+                                        generation, this should be 15-30 seconds.</p>
+                                    <p>The biggest problem with the fight is <a href="https://classic.wowhead.com/spell=18670" class="q1">Knock Away</a>, which
+                                         will be used frequently and will reduce the threat of your current tank by half. The new tank with highest threat
+                                         should move to where the previous main tank was. Your DPSers should always make sure they are under the second tanks&apos; threat value.
+                                        Threat may also be an issue for healers during this fight.</p>
+                                    <p>Approximately every 25 seconds, the boss will use <a href="https://classic.wowhead.com/spell=24573" class="q1">Mortal Strike</a> for
+                                        more than 5,000 damage, which will also apply the healing debuff. The priest with the most +healing gear in raid should cast 
+                                        a <a href="https://classic.wowhead.com/spell=27607" class="q1">Power Word: Shield</a> on the tank for a buffer
+                                         as it is twice as effective as a heal while the debuff is active.</p>
+                                    <dl>
+                                        <dt>Noteworthy Abilities:</dt>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
+                                        </dd>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=18670" class="q1">Knock Away</a>
+                                        </dd>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=23331" class="q1">Blast Wave</a>
+                                        </dd>
+                                        <dd>
+                                            <a href="https://classic.wowhead.com/spell=24573" class="q1">Mortal Strike</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+            
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <div id="img-tooltip" style="position: absolute;">
+                    <img style="display: none;" src=""/>
                 </div>
-            </div>
-            <div id="raid-preparation">
-                <div class="col-xl-8">
-                    <h2>Raid Preparation</h2>
-                    <hr/>
-                    <p>We expect our members to come to raid with at least four enchants on their gear as well as some consumables.  Everyone
-                            should have some <a href="https://classic.wowhead.com/item=13446/major-healing-potion">Major Healing Potion</a>s as well as the following</p>
-                </div>
-                <div class="col-xl-12">
-                    <h4>Melee DPS</h4>
-                    <ul>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
-                            <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=12451/juju-power">Juju Power</a> or
-                            <a href="https://classic.wowhead.com/item=9206/elixir-of-giants">Elixir of Giants</a>
-                        </li>
-                        <li>
-                                <a href="https://classic.wowhead.com/item=12460/juju-might">Juju Might</a>
-                            </li>
-                            <li>
-                                <a href="https://classic.wowhead.com/item=12820/winterfall-firewater">Winterfall Firewater</a>
-                            </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=18262/elemental-sharpening-stone">Elemental Sharpening Stone</a> or 
-                            <a href="https://classic.wowhead.com/item=12404/dense-sharpening-stone">Dense Sharpening Stone</a> or
-                            <a href="https://classic.wowhead.com/item=8928/instant-poison-vi">Instant Poison</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13928/grilled-squid">Grilled Squid</a> or 
-                            <a href="https://classic.wowhead.com/item=13810/blessed-sunfruit">Blessed Sunfruit</a> or
-                            <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
-                            <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
-                        </li>
-                    </ul>
-                    <h4>Hunters</h4>
-                    <ul>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
-                            <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=12460/juju-might">Juju Might</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13928/grilled-squid">Grilled Squid</a> or 
-                            <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
-                            <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
-                        </li>
-                    </ul>
-                    <h4>Caster DPS</h4>
-                    <ul>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=9264/elixir-of-shadow-power">Elixir of Shadow Power</a> or
-                            <a href="https://classic.wowhead.com/item=17708/elixir-of-frost-power">Elixir of Frost Power</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13454/greater-arcane-elixir">Greater Arcane Elixir</a> or
-                            <a href="https://classic.wowhead.com/item=9155/arcane-elixir">Arcane Elixir</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13444/major-mana-potion">Major Mana Potion</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=18254/runn-tum-tuber-surprise">Runn Tum Tuber Surprise</a> or
-                            <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
-                            <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a> or
-                            <a href="https://classic.wowhead.com/item=13931/nightfin-soup">Nightfin Soup</a>
-                        </li>
-                        <li>
-                            Optional: <a href="https://classic.wowhead.com/item=13512/flask-of-supreme-power">Flask of Supreme Power</a>
-                        </li>
-                    </ul>
-                    <h4>Healers</h4>
-                    <ul>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13444/major-mana-potion">Major Mana Potion</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=14530/heavy-runecloth-bandage">Heavy Runecloth Bandage</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13931/nightfin-soup">Nightfin Soup</a> or
-                            <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
-                            <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
-                        </li>
-                        <li>
-                            Optional: <a href="https://classic.wowhead.com/item=13511/flask-of-distilled-wisdom">Flask of Distilled Wisdom</a>
-                        </li>
-                    </ul>
-                    <h4>Tanks</h4>
-                    <ul>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13455/greater-stoneshield-potion">Greater Stoneshield Potion</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
-                            <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=12451/juju-power">Juju Power</a> or
-                            <a href="https://classic.wowhead.com/item=9206/elixir-of-giants">Elixir of Giants</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=12460/juju-might">Juju Might</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=12820/winterfall-firewater">Winterfall Firewater</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=18262/elemental-sharpening-stone">Elemental Sharpening Stone</a> or 
-                            <a href="https://classic.wowhead.com/item=12404/dense-sharpening-stone">Dense Sharpening Stone</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=21151/rumsey-rum-black-label">Rumsey Rum Black Label</a> or
-                            <a href="https://classic.wowhead.com/item=21114/rumsey-rum-dark">Rumsey Rum Dark</a> or
-                            <a href="https://classic.wowhead.com/item=18269/gordok-green-grog">Gordok Green Grog</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=18045/tender-wolf-steak">Tender Wolf Steak</a> or 
-                            <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a> or
-                            <a href="https://classic.wowhead.com/item=13928/grilled-squid">Grilled Squid</a> or 
-                            <a href="https://classic.wowhead.com/item=13810/blessed-sunfruit">Blessed Sunfruit</a>
-                        </li>
-                        <li>
-                            <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
-                            <a href="https://classic.wowhead.com/item=9187/elixir-of-greater-agility">Elixir of Greater Agility</a>
-                        </li>
-                        <li>
-                            Optional or Guild provided: <a href="https://classic.wowhead.com/item=13510/flask-of-the-titans">Flask of the Titans</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-8">
-                <h2 id="boss-encounters">Boss Encounters</h2>
-                <hr/>
-            </div>
-            <!-- TODO: List abilities -->
-            <div id="razorgore-the-untamed" class="boss-encounter col-xl-8">
-                <h3><a href="https://classic.wowhead.com/npc=12435/razorgore-the-untamed">Razorgore the Untamed</a></h3>
-                <h4>Tanks: 4</h4>
-                <p>The first boss fight has two phases; egg phase and burn phase. The egg phase is first and we will split the raid into
-                    four groups and send a team to each corner of the room.</p>
-                <h4 id="phase-1-egg">Phase 1 (Egg)</h4>
-                <p>We will most likely have 1-2 Paladins controlling Razorgore via the <a href="https://classic.wowhead.com/object=177808/orb-of-domination" class="q1">Orb of Domination</a>
-                        to destroy the eggs in the room using <a href="https://classic.wowhead.com/spell=19873/destroy-egg" class="q1">Destroy Egg</a>.
-                    While this is happening, the four teams will kill the adds that are spawning with priority Mage > Dragon > Legionaire.  We
-                        will have hunters available to kite Dragons if we fall behind in DPS.</p>
-                <h4 id="phase-2-burn">Phase 2 (Burn)</h4>
-                <p>As soon as the last egg is destroyed, the Paladin who was controlling Razorgore will run to the tanks.  The tanks will
-                        pick up Razorgore and stand at about a 90 degree angle from each other.  Melee will be behind the boss. Razorgore will
-                        occasionally cast <a href="https://classic.wowhead.com/spell=16805/conflagration" class="q1">Conflagration</a>
-                        on the tank so a secondary tank will be needed for this phase.</p>
-            </div>
-            <div id="vaelastrasz-the-corrupt" class="boss-encounter col-xl-8">
-                <h3><a href="https://classic.wowhead.com/npc=13020/vaelastrasz-the-corrupt">Vaelastrasz the Corrupt</a></h3>
-                <!-- TODO: Only your moans -->
-                <h4>Tanks: 2-5 Based on DPS</h4>
-                <p>This fight is started by speaking with Vaelstrasz.</p>
-                <p>If the fight lasts longer than three minutes, it will most likely be a wipe because <a href="https://classic.wowhead.com/spell=23513/essence-of-the-red" class="q1" img-src="img/essence_of_the_red.png">Essence of the Red</a>
-                        runs out. Tanks should find a good balance between threat and fire resist gear. 1.3 or 1.4 speed weapon suggested (or Eskhandar Claw)</p>
-                
-                <p>Every 15 seconds, Vaelastrasz will cast <a href="https://classic.wowhead.com/spell=18173/burning-adrenaline" class="q1" img-src="img/burning_adrenaline.png">Burning Adrenaline</a>
-                    , which does increase damage by 100%, but will kill the target after 20 seconds. Anyone (besides your tank) who receives the buff needs to run
-                    far away from the rest of the raid to not kill anyone when they die.  This should only be cast on mana users and the Main Tank every third time.
-                        When the tank gets the debuff, the next tank should start moving into position to take over.</p>
-                <!-- TODO: Tail sweep -->
-                <p>The best way to position him is by having your warriors at least 90 degrees away from the current tank, near his
-                    <b>left</b> shoulder. Melee DPS should be on the other side of the boss, staying in between his front and rear
-                    <b>right</b> legs. All casters, ranged DPS, and healers should be next to the wall directly across from the
-                    warriors (melee DPS side) on the other side of Vaelestrasz.</p>
-                <dl>
-                    <dt>Noteworthy Abilities:</dt>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=15847" class="q1">Tail Sweep</a>
-                    </dd>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=19983" class="q1">Cleave</a>
-                    </dd>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=23461" class="q1">Flame Breath</a>
-                    </dd>
-                </dl>
-            </div>
-            <div id="broodlord-lashlayer" class="boss-encounter col-xl-8">
-                <h3><a href="https://classic.wowhead.com/npc=12017">Broodlord Lashlayer</a></h3>
-                <h4>Tanks: 3</h4>
-                <p>Most of the difficulty in the fight is in reaching the boss, which requires some finesse. This is because there of the
-                    suppression rooms which are filled with <b>Suppression Devices</b>.</p>
-                <p>These can be difficult because they create <a href="https://classic.wowhead.com/spell=22247" class="q1" img-src="img/suppression_aura.png">Suppression
-                    Aura</a>, which will make everything <b>five</b> times slower. It's like being stuck in a molasses flood, while the
-                    enemies don’t mind it at all.</p>
-                <p>Each <b>Suppression Device</b> is guarded by whelps that should be AOEd. These whelps will respawn after 30
-                     seconds, so you must move quickly between traps. The devices can be turned off by rogues using Disarm Trap. 
-                     Throughout the gauntlet, 2-3 rogues should be Stealthed 100% of the time and use Distract to help them
-                     turn off the devices. One of these rogues should be checking the rear devices to make sure the back end 
-                     of the raid doesn't get slowed while moving forward.</p>
-                <p>There are also some stronger mobs called <a href="https://classic.wowhead.com/npc=12468" class="q1">Death Talon Hatcher</a>s. The hatchers respawn after 20 minutes and should
-                     be killed by hunters and melee DPS.</p>
-                <p>To properly set the fight up, have your main tank pull the boss and head to the nearest corner. Your offtanks will
-                    follow and set up 90 degrees away from the main tank to avoid <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
-                    They can start generating threat after a few seconds. DPS can start <b>when the offtanks are in place</b>! Depending on threat
-                    generation, this should be 15-30 seconds.</p>
-                <p>The biggest problem with the fight is <a href="https://classic.wowhead.com/spell=18670" class="q1">Knock Away</a>, which
-                     will be used frequently and will reduce the threat of your current tank by half. The new tank with highest threat
-                     should move to where the previous main tank was. Your DPSers should always make sure they are under the second tanks&apos; threat value.
-                    Threat may also be an issue for healers during this fight.</p>
-                <p>Approximately every 25 seconds, the boss will use <a href="https://classic.wowhead.com/spell=24573" class="q1">Mortal Strike</a> for
-                    more than 5,000 damage, which will also apply the healing debuff. The priest with the most +healing gear in raid should cast 
-                    a <a href="https://classic.wowhead.com/spell=27607" class="q1">Power Word: Shield</a> on the tank for a buffer
-                     as it is twice as effective as a heal while the debuff is active.</p>
-                <dl>
-                    <dt>Noteworthy Abilities:</dt>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
-                    </dd>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=18670" class="q1">Knock Away</a>
-                    </dd>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=23331" class="q1">Blast Wave</a>
-                    </dd>
-                    <dd>
-                        <a href="https://classic.wowhead.com/spell=24573" class="q1">Mortal Strike</a>
-                    </dd>
-                </dl>
-            </div>
-            <div id="img-tooltip" style="position: absolute;">
-                <img style="display: none;" src=""/>
-            </div>
+            </main>
         </div>
         <script>
             (function($) {
