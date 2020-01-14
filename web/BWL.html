@@ -38,8 +38,11 @@
         h3, h3 a, h3 a:hover {
             color: goldenrod;
         }
-        h4 {
+        h4, h5 {
             color: gold;
+        }
+        h6 {
+            color:lightgoldenrodyellow;
         }
         hr {
             color: darkgoldenrod;
@@ -47,6 +50,10 @@
             height: 3px;
             border: none;
             margin-top: 0px;
+        }
+        ul {
+            text-indent: -3em;
+            margin-left: 3em;
         }
         ul, dl {
             list-style: none;
@@ -73,7 +80,7 @@
         .boss-encounter {
             border: 2px solid #dadada;
             border-radius: 10px;
-            padding: 0 20px;
+            padding: 10px 20px 0 20px;
             margin: 1.5em 0;
             box-shadow: 3px 3px 0px 0px #a7bdc7,
             5px 5px 0px 0px #878787;
@@ -125,7 +132,7 @@
                     </header>
                     <div class="row">
                         <div class="col-xl-12">
-                            <h4>Melee DPS</h4>
+                            <h5>Melee DPS</h5>
                             <ul>
                                 <li>
                                     <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
@@ -156,7 +163,7 @@
                                     <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
                                 </li>
                             </ul>
-                            <h4>Hunters</h4>
+                            <h5>Hunters</h5>
                             <ul>
                                 <li>
                                     <a href="https://classic.wowhead.com/item=13452/elixir-of-the-mongoose">Elixir of the Mongoose</a> or
@@ -174,7 +181,7 @@
                                     <a href="https://classic.wowhead.com/item=17222/spider-sausage">Spider Sausage</a>
                                 </li>
                             </ul>
-                            <h4>Caster DPS</h4>
+                            <h5>Caster DPS</h5>
                             <ul>
                                 <li>
                                     <a href="https://classic.wowhead.com/item=9264/elixir-of-shadow-power">Elixir of Shadow Power</a> or
@@ -200,7 +207,7 @@
                                     Optional: <a href="https://classic.wowhead.com/item=13512/flask-of-supreme-power">Flask of Supreme Power</a>
                                 </li>
                             </ul>
-                            <h4>Healers</h4>
+                            <h5>Healers</h5>
                             <ul>
                                 <li>
                                     <a href="https://classic.wowhead.com/item=13444/major-mana-potion">Major Mana Potion</a>
@@ -217,7 +224,7 @@
                                     Optional: <a href="https://classic.wowhead.com/item=13511/flask-of-distilled-wisdom">Flask of Distilled Wisdom</a>
                                 </li>
                             </ul>
-                            <h4>Tanks</h4>
+                            <h5>Tanks</h5>
                             <ul>
                                 <li>
                                     <a href="https://classic.wowhead.com/item=13455/greater-stoneshield-potion">Greater Stoneshield Potion</a>
@@ -273,15 +280,15 @@
                             <div class="col-xl-8">
                                 <div class="boss-encounter">
                                     <h3><a href="https://classic.wowhead.com/npc=12435/razorgore-the-untamed">Razorgore the Untamed</a></h3>
-                                    <h4>Tanks: 4</h4>
+                                    <h6>Tanks: 4</h6>
                                     <p>The first boss fight has two phases; egg phase and burn phase. The egg phase is first and we will split the raid into
                                         four groups and send a team to each corner of the room.</p>
-                                    <h4 id="phase-1-egg">Phase 1 (Egg)</h4>
+                                    <h4>Phase 1 (Egg)</h4>
                                     <p>We will most likely have 1-2 Paladins controlling Razorgore via the <a href="https://classic.wowhead.com/object=177808/orb-of-domination" class="q1">Orb of Domination</a>
                                             to destroy the eggs in the room using <a href="https://classic.wowhead.com/spell=19873/destroy-egg" class="q1">Destroy Egg</a>.
                                         While this is happening, the four teams will kill the adds that are spawning with priority Mage > Dragon > Legionaire.  We
                                             will have hunters available to kite Dragons if we fall behind in DPS.</p>
-                                    <h4 id="phase-2-burn">Phase 2 (Burn)</h4>
+                                    <h4>Phase 2 (Burn)</h4>
                                     <p>As soon as the last egg is destroyed, the Paladin who was controlling Razorgore will run to the tanks.  The tanks will
                                             pick up Razorgore and stand at about a 90 degree angle from each other.  Melee will be behind the boss. Razorgore will
                                             occasionally cast <a href="https://classic.wowhead.com/spell=16805/conflagration" class="q1">Conflagration</a>
@@ -299,7 +306,7 @@
                                 <div class="boss-encounter">
                                     <h3><a href="https://classic.wowhead.com/npc=13020/vaelastrasz-the-corrupt">Vaelastrasz the Corrupt</a></h3>
                                     <!-- TODO: Only your moans -->
-                                    <h4>Tanks: 2-5 Based on DPS</h4>
+                                    <h6>Tanks: 2-5 Based on DPS</h6>
                                     <p>This fight is started by speaking with Vaelstrasz.</p>
                                     <p>If the fight lasts longer than three minutes, it will most likely be a wipe because <a href="https://classic.wowhead.com/spell=23513/essence-of-the-red" class="q1" img-src="img/essence_of_the_red.png">Essence of the Red</a>
                                             runs out. Tanks should find a good balance between threat and fire resist gear. 1.3 or 1.4 speed weapon suggested (or Eskhandar Claw)</p>
@@ -337,9 +344,10 @@
                             <div class="col-xl-8">
                                 <div class="boss-encounter">
                                     <h3><a href="https://classic.wowhead.com/npc=12017">Broodlord Lashlayer</a></h3>
-                                    <h4>Tanks: 3</h4>
+                                    <h6>Tanks: 3</h6>
                                     <p>Most of the difficulty in the fight is in reaching the boss, which requires some finesse. This is because there of the
                                         suppression rooms which are filled with <b>Suppression Devices</b>.</p>
+                                    <h4>Phase 1 (Suppression Approach)</h4>
                                     <p>These can be difficult because they create <a href="https://classic.wowhead.com/spell=22247" class="q1" img-src="img/suppression_aura.png">Suppression
                                         Aura</a>, which will make everything <b>five</b> times slower. It's like being stuck in a molasses flood, while the
                                         enemies don’t mind it at all.</p>
@@ -350,6 +358,7 @@
                                          of the raid doesn't get slowed while moving forward.</p>
                                     <p>There are also some stronger mobs called <a href="https://classic.wowhead.com/npc=12468" class="q1">Death Talon Hatcher</a>s. The hatchers respawn after 20 minutes and should
                                          be killed by hunters and melee DPS.</p>
+                                    <h4>Phase 2 (Boss)</h4>
                                     <p>To properly set the fight up, have your main tank pull the boss and head to the nearest corner. Your offtanks will
                                         follow and set up 90 degrees away from the main tank to avoid <a href="https://classic.wowhead.com/spell=20677" class="q1">Cleave</a>
                                         They can start generating threat after a few seconds. DPS can start <b>when the offtanks are in place</b>! Depending on threat
@@ -384,6 +393,66 @@
                             </div>
                         </div>
                     </article>
+                    <section>
+                        <article id="firemaw-ebonroc-flamegor">
+                            <div class="row">
+                                <div class="col-xl-8">
+                                    <div class="boss-encounter">
+                                        <h3>Firemaw, Ebonroc, and Flamegor</h3>
+                                        <p>The next three dragons share some mechanics, so I will describe the similarities then the differences.</p>
+                                        <p>All three dragons can use <a href="https://classic.wowhead.com/spell=22539" class="q1">Shadow Flame</a> on the tank(s) in front of them.
+                                            We will use at least two tanks with an <a href="https://classic.wowhead.com/item=15138" class="q3">Onyxia Scale Cloak</a> to prevent the DOT
+                                            and inevitable death.</p>
+                                        <p>The dragons also share <a href="https://classic.wowhead.com/spell=23339" class="q1">Wing Buffet</a>, which reduces threat. The offtank(s) will taunt and
+                                            move into position before the ability is used so that they get hit by it <b>instead of your main tank</b>. The main tank will swap positions
+                                            with the offtank (90 degrees from the front of the boss).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="firemaw">
+                            <div class="row">
+                                <div class="col-xl-8">
+                                    <div class="boss-encounter">
+                                        <h3><a href="https://classic.wowhead.com/npc=11983">Firemaw</a></h3>
+                                        <h6>Tanks: 3</h6>
+                                        <p>Firemaw's additional ability is <a href="https://classic.wowhead.com/spell=23341" class="q1">Flame Buffet</a>. This is a gradually ramping damage debuff that is
+                                            applied to anyone in line of sight of the boss. Stacks of the debuff should be reset between 5-10 stacks depending on healing/kill speed. Healers
+                                            should take advantage of line of sight so they are able to heal the tank(s) but not be hit by the debuff.</p>
+                                        <p>We will position the boss at the doorway into the first drakinoid/goblin room after Broodlord.  Melee dps will be out of line of sight of the 
+                                            healers and will have to run back around the corner to bandage/get heals and reset debuff stacks. Ranged DPS will stand next to the healers and sidestep out of line of sight
+                                            to reset debuff stacks</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="ebonroc">
+                            <div class="row">
+                                <div class="col-xl-8">
+                                    <div class="boss-encounter">
+                                        <h3><a href="https://classic.wowhead.com/npc=14601">Ebonroc</a></h3>
+                                        <h6>Tanks: 3</h6>
+                                        <p>Ebonroc's additional ability is <a href="https://classic.wowhead.com/spell=23340" class="q1" img-src="img/shadow_of_ebonroc.png">Shadow of Ebonroc</a>. Offtank(s) 
+                                            will alternate taunts to soak <a href="https://classic.wowhead.com/spell=23339" class="q1">Wing Buffet</a>s and prevent taking damage while affected by the debuff.
+                                            They should be positioned at 90 degrees from each other making a + shape with the raid (DPS and heals cardinal south of the main tank).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="flamegor">
+                            <div class="row">
+                                <div class="col-xl-8">
+                                    <div class="boss-encounter">
+                                        <h3><a href="https://classic.wowhead.com/npc=11981">Flamegor</a></h3>
+                                        <h6>Tanks: 2</h6>
+                                        <p>Flamegor's additional ability is <a href="https://classic.wowhead.com/spell=23342" class="q1">Frenzy</a>. The effects of this ability can be completely avoided by
+                                            quickly using <a href="https://classic.wowhead.com/spell=19801" class="q1">Tranquilizing Shot</a> from your hunters.  If Frenzy is not removed, Flamegor's attack
+                                            speed is drastically increased and he casts <a href="https://classic.wowhead.com/spell=23462" class="q1">Fire Nova</a> for about 550 damage every two seconds.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
                 </section>
                 <div id="img-tooltip" style="position: absolute;">
                     <img style="display: none;" src=""/>
