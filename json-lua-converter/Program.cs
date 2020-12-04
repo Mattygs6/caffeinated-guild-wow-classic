@@ -3888,6 +3888,1407 @@ namespace json_lua_converter
             ""url"": ""https://classic.wowhead.com/item=21237"",
             ""type"": "" "",
             ""comment"": ""Very good warlock staff, BIS Game Feral Mace""
+        },
+        {
+            ""name"": ""Cryptfiend Silk Cloak"",
+            ""price"": 20,
+            ""id"": 22938,
+            ""bosses"": ""Anub'Rekhan"",
+            ""raid"": ""Naxxramas"",
+            ""type"": ""Back"",
+            ""feralDruid"": 1,
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Band of Unanswered Prayers"",
+            ""price"": 15,
+            ""id"": 22939,
+            ""bosses"": ""Anub'Rekhan"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22939/band-of-unanswered-prayers"",
+            ""type"": ""Finger"",
+            ""holyPriest"": 1,
+            ""restoDruid"": 1
+        },
+        {
+            ""name"": ""Gem of Nerubis"",
+            ""price"": 2,
+            ""id"": 22937,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Anub'Rekhan"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22937/gem-of-nerubis"",
+            ""type"": ""Held In Off-hand"",
+            ""detail"": ""Caster""
+        },
+        {
+            ""name"": ""Touch of Frost"",
+            ""price"": 0,
+            ""id"": 22935,
+            ""bosses"": ""Anub'Rekhan"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22935/touch-of-frost"",
+            ""type"": ""Neck""
+        },
+        {
+            ""name"": ""Wristguards of Vengeance"",
+            ""price"": 20,
+            ""id"": 22936,
+            ""bosses"": ""Anub'Rekhan"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22936/wristguards-of-vengeance"",
+            ""type"": ""Wrist"",
+            ""comment"": ""5-10 warrior aep"",
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Corrupted Ashbringer"",
+            ""price"": 20,
+            ""id"": 22691,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22691/corrupted-ashbringer"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Desecrated Breastplate"",
+            ""price"": 15,
+            ""id"": 22349,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22349/desecrated-breastplate"",
+            ""type"": ""Chest"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Desecrated Robe"",
+            ""price"": 15,
+            ""id"": 22351,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22351/desecrated-robe."",
+            ""type"": ""Chest"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Desecrated Tunic"",
+            ""price"": 15,
+            ""id"": 22350,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22350/desecrated-tunic"",
+            ""type"": ""Chest"",
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Leggings of Apocalypse"",
+            ""price"": 25,
+            ""id"": 23071,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23071/leggings-of-apocalypse"",
+            ""type"": ""Legs"",
+            ""feralDruid"": 1
+        },
+        {
+            ""name"": ""Maul of the Redeemed Crusader"",
+            ""price"": 1,
+            ""id"": 22809,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22809/maul-of-the-redeemed-crusader#comments"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Seal of the Damned"",
+            ""price"": 10,
+            ""id"": 23025,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23025/seal-of-the-damned"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""Soulstring"",
+            ""price"": 5,
+            ""id"": 22811,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22811/soulstring#comments"",
+            ""type"": ""Ranged""
+        },
+        {
+            ""name"": ""Warmth of Forgiveness"",
+            ""price"": 2,
+            ""id"": 23027,
+            ""bosses"": ""Four Horsemen"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23027/warmth-of-forgiveness"",
+            ""type"": ""Trinket""
+        },
+        {
+            ""name"": ""Digested Hand of Power"",
+            ""price"": 1,
+            ""id"": 22994,
+            ""bosses"": ""Gluth"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22994/digested-hand-of-power"",
+            ""type"": ""Held In Off-hand"",
+            ""detail"": ""Healer""
+        },
+        {
+            ""name"": ""Gluth's Missing Collar"",
+            ""price"": 2,
+            ""id"": 22981,
+            ""bosses"": ""Gluth"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22981/gluths-missing-collar"",
+            ""type"": ""Neck""
+        },
+        {
+            ""name"": ""Death's Bargain"",
+            ""price"": 5,
+            ""id"": 23075,
+            ""bosses"": ""Gluth"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23075/deaths-bargain"",
+            ""type"": ""Shield""
+        },
+        {
+            ""name"": ""Rime Covered Mantle"",
+            ""price"": 20,
+            ""id"": 22983,
+            ""bosses"": ""Gluth"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22983/rime-covered-mantle"",
+            ""type"": ""Shoulder""
+        },
+        {
+            ""name"": ""Claymore of Unholy Might"",
+            ""price"": 2,
+            ""id"": 22813,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Gluth"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22813/claymore-of-unholy-might"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Boots of Displacement"",
+            ""price"": 1,
+            ""id"": 23073,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Gothik the Harvester"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23073/boots-of-displacement"",
+            ""type"": ""Boots""
+        },
+        {
+            ""name"": ""Glacial Headdress"",
+            ""price"": 0,
+            ""id"": 23032,
+            ""bosses"": ""Gothik the Harvester"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23032/glacial-headdress"",
+            ""type"": ""Head""
+        },
+        {
+            ""name"": ""Polar Helmet"",
+            ""price"": 0,
+            ""id"": 23020,
+            ""bosses"": ""Gothik the Harvester"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23020/polar-helmet"",
+            ""type"": ""Head""
+        },
+        {
+            ""name"": ""Sadist's Collar"",
+            ""price"": 2,
+            ""id"": 23023,
+            ""bosses"": ""Gothik the Harvester"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23023/sadists-collar"",
+            ""type"": ""Neck""
+        },
+        {
+            ""name"": ""The Soul Harvester's Bindings"",
+            ""price"": 5,
+            ""id"": 23021,
+            ""bosses"": ""Gothik the Harvester"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23021/the-soul-harvesters-bindings"",
+            ""type"": ""Wrist""
+        },
+        {
+            ""name"": ""Malice Stone Pendant"",
+            ""price"": 2,
+            ""id"": 22943,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Grand Widow Faerlina"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22943/malice-stone-pendant"",
+            ""type"": ""Neck""
+        },
+        {
+            ""name"": ""The Widow's Embrace"",
+            ""price"": 40,
+            ""id"": 22942,
+            ""bosses"": ""Grand Widow Faerlina"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22942/the-widows-embrace"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Healing""
+        },
+        {
+            ""name"": ""Widow's Remorse"",
+            ""price"": 10,
+            ""id"": 22806,
+            ""bosses"": ""Grand Widow Faerlina"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22806/widows-remorse"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Sword""
+        },
+        {
+            ""name"": ""Icebane Pauldrons"",
+            ""price"": 0,
+            ""id"": 22940,
+            ""bosses"": ""Grand Widow Faerlina"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22940/icebane-pauldrons"",
+            ""type"": ""Shoulder""
+        },
+        {
+            ""name"": ""Polar Shoulder Pads"",
+            ""price"": 0,
+            ""id"": 22941,
+            ""bosses"": ""Grand Widow Faerlina"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22941/polar-shoulder-pads"",
+            ""type"": ""Shoulder""
+        },
+        {
+            ""name"": ""Midnight Haze"",
+            ""price"": 10,
+            ""id"": 22803,
+            ""bosses"": ""Grobbulus"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22803/midnight-haze"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Caster""
+        },
+        {
+            ""name"": ""The End of Dreams"",
+            ""price"": 20,
+            ""id"": 22988,
+            ""bosses"": ""Grobbulus"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22988/the-end-of-dreams"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Caster/Druid""
+        },
+        {
+            ""name"": ""Toxin Injector"",
+            ""price"": 1,
+            ""id"": 22810,
+            ""bosses"": ""Grobbulus"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22810/toxin-injector"",
+            ""type"": ""Ranged""
+        },
+        {
+            ""name"": ""Glacial Mantle"",
+            ""price"": 0,
+            ""id"": 22968,
+            ""bosses"": ""Grobbulus"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22968/glacial-mantle"",
+            ""type"": ""Shoulder""
+        },
+        {
+            ""name"": ""Icy Scale Spaulders"",
+            ""price"": 0,
+            ""id"": 22967,
+            ""bosses"": ""Grobbulus"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22967/icy-scale-spaulders"",
+            ""type"": ""Shoulder""
+        },
+        {
+            ""name"": ""Icebane Helmet"",
+            ""price"": 0,
+            ""id"": 23019,
+            ""bosses"": ""Heigan the Unclean"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23019/icebane-helmet"",
+            ""type"": ""Head""
+        },
+        {
+            ""name"": ""Icy Scale Coif"",
+            ""price"": 0,
+            ""id"": 23033,
+            ""bosses"": ""Heigan the Unclean"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23033/icy-scale-coif"",
+            ""type"": ""Head""
+        },
+        {
+            ""name"": ""Preceptor's Hat"",
+            ""price"": 5,
+            ""id"": 23035,
+            ""bosses"": ""Heigan the Unclean"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23035/preceptors-hat"",
+            ""type"": ""Head"",
+            ""detail"": ""Shadowpriest BIS"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""Legplates of Carnage"",
+            ""price"": 20,
+            ""id"": 23068,
+            ""bosses"": ""Heigan the Unclean"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23068/legplates-of-carnage"",
+            ""type"": ""Legs"",
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Necklace of Necropsy"",
+            ""price"": 10,
+            ""id"": 23036,
+            ""bosses"": ""Heigan the Unclean"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23036/necklace-of-necropsy"",
+            ""type"": ""Neck"",
+            ""holyPriest"": 1,
+            ""restoDruid"": 1
+        },
+        {
+            ""name"": ""Veil of Eclipse"",
+            ""price"": 1,
+            ""id"": 23017,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Instructor Razuvious"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23017/veil-of-eclipse"",
+            ""type"": ""Back""
+        },
+        {
+            ""name"": ""Signet of the Fallen Defender"",
+            ""price"": 15,
+            ""id"": 23018,
+            ""bosses"": ""Instructor Razuvious"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23018/signet-of-the-fallen-defender"",
+            ""type"": ""Finger"",
+            ""feralDruid"": 1
+        },
+        {
+            ""name"": ""Iblis, Blade of the Fallen Seraph"",
+            ""price"": 15,
+            ""id"": 23014,
+            ""bosses"": ""Instructor Razuvious"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23014/iblis-blade-of-the-fallen-seraph"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Sword"",
+            ""comment"": ""20-30 rogue aep""
+        },
+        {
+            ""name"": ""Wand of the Whispering Dead"",
+            ""price"": 10,
+            ""id"": 23009,
+            ""bosses"": ""Instructor Razuvious"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23009/wand-of-the-whispering-dead"",
+            ""type"": ""Ranged"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Idol of Longevity"",
+            ""price"": 2,
+            ""id"": 23004,
+            ""bosses"": ""Instructor Razuvious"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23004/idol-of-longevity"",
+            ""type"": ""Relic"",
+            ""restoDruid"": 1
+        },
+        {
+            ""name"": ""Girdle of the Mentor"",
+            ""price"": 15,
+            ""id"": 23219,
+            ""bosses"": ""Instructor Razuvious"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23219/girdle-of-the-mentor"",
+            ""type"": ""Waist"",
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Bonescythe Ring"",
+            ""price"": 5,
+            ""id"": 23060,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23060/bonescythe-ring"",
+            ""type"": ""Finger"",
+            ""comment"": ""8 rogue aep""
+        },
+        {
+            ""name"": ""Frostfire Ring"",
+            ""price"": 5,
+            ""id"": 23062,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23062/frostfire-ring"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""Plagueheart Ring"",
+            ""price"": 5,
+            ""id"": 23063,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23063/plagueheart-ring"",
+            ""type"": ""Finger"",
+            ""rogueSword"": 1
+        },
+        {
+            ""name"": ""Ring of Faith"",
+            ""price"": 5,
+            ""id"": 23061,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23061/ring-of-faith"",
+            ""type"": ""Finger"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Ring of Redemption"",
+            ""price"": 5,
+            ""id"": 23066,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23066/ring-of-redemption"",
+            ""type"": ""Finger"",
+            ""rogueDagger"": 1,
+            ""holyPaladin"": 1
+        },
+        {
+            ""name"": ""Ring of the Cryptstalker"",
+            ""price"": 5,
+            ""id"": 23067,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23067/ring-of-the-cryptstalker"",
+            ""type"": ""Finger"",
+            ""rogueSword"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Ring of the Dreadnaught"",
+            ""price"": 5,
+            ""id"": 23059,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23059/ring-of-the-dreadnaught"",
+            ""type"": ""Finger"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Ring of the Dreamwalker"",
+            ""price"": 5,
+            ""id"": 23064,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23064/ring-of-the-dreamwalker"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""The Phylactery of Kel'Thuzad"",
+            ""price"": 20,
+            ""id"": 22520,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22520/the-phylactery-of-kelthuzad"",
+            ""type"": ""Legs""
+        },
+        {
+            ""name"": ""Gem of Trapped Innocents"",
+            ""price"": 15,
+            ""id"": 23057,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23057/gem-of-trapped-innocents"",
+            ""type"": ""Neck""
+        },
+        {
+            ""name"": ""Stormrage's Talisman of Seething"",
+            ""price"": 10,
+            ""id"": 23053,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23053/stormrages-talisman-of-seething"",
+            ""type"": ""Neck"",
+            ""comment"": ""2 warrior aep"",
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Gressil, Dawn of Ruin"",
+            ""price"": 80,
+            ""id"": 23054,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23054/gressil-dawn-of-ruin"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Sword"",
+            ""comment"": ""80 rogue aep, 200 warrior aep"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1,
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Hammer of the Twisting Nether"",
+            ""price"": 70,
+            ""id"": 23056,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23056/hammer-of-the-twisting-nether"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Healing"",
+            ""holyPriest"": 1,
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1
+        },
+        {
+            ""name"": ""Kingsfall"",
+            ""price"": 80,
+            ""id"": 22802,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22802/kingsfall"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Dagger"",
+            ""comment"": ""60 rogue aep""
+        },
+        {
+            ""name"": ""The Hungering Cold"",
+            ""price"": 65,
+            ""id"": 23577,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23577/the-hungering-cold"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Sword"",
+            ""comment"": ""40 rogue aep, 200 warrior aep"",
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Doomfinger"",
+            ""price"": 10,
+            ""id"": 22821,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22821/doomfinger"",
+            ""type"": ""Ranged"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""Nerubian Slavemaker"",
+            ""price"": 80,
+            ""id"": 22812,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22812/nerubian-slavemaker"",
+            ""type"": ""Ranged"",
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Shield of Condemnation"",
+            ""price"": 15,
+            ""id"": 22819,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22819/shield-of-condemnation"",
+            ""type"": ""Shield"",
+            ""holyPaladin"": 1
+        },
+        {
+            ""name"": ""Might of Menethil"",
+            ""price"": 10,
+            ""id"": 22798,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22798/might-of-menethil"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Soulseeker"",
+            ""price"": 40,
+            ""id"": 22799,
+            ""bosses"": ""Kel'Thuzad"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22799/soulseeker"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Band of Unnatural Forces"",
+            ""price"": 15,
+            ""id"": 23038,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23038/band-of-unnatural-forces"",
+            ""type"": ""Finger"",
+            ""comment"": ""15 rogue aep"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1,
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Ring of Spiritual Fervor"",
+            ""price"": 1,
+            ""id"": 23037,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23037/ring-of-spiritual-fervor"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""Desecrated Leggings"",
+            ""price"": 10,
+            ""id"": 22366,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22366/desecrated-leggings"",
+            ""type"": ""Legs"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Desecrated Legguards"",
+            ""price"": 10,
+            ""id"": 22359,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22359/desecrated-legguards"",
+            ""type"": ""Legs"",
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Desecrated Legplates"",
+            ""price"": 10,
+            ""id"": 22352,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22352/desecrated-legplates"",
+            ""type"": ""Legs"",
+            ""comment"": ""15 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Loatheb's Reflection"",
+            ""price"": 0,
+            ""id"": 23042,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23042/loathebs-reflection"",
+            ""type"": ""Trinket""
+        },
+        {
+            ""name"": ""Brimstone Staff"",
+            ""price"": 40,
+            ""id"": 22800,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22800/brimstone-staff"",
+            ""type"": ""Two-Hand"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""The Eye of Nerub"",
+            ""price"": 5,
+            ""id"": 23039,
+            ""bosses"": ""Loatheb"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23039/the-eye-of-nerub"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Crystal Webbed Robe"",
+            ""price"": 10,
+            ""id"": 23220,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23220/crystal-webbed-robe"",
+            ""type"": ""Chest"",
+            ""detail"": ""Shadowpriest BIS""
+        },
+        {
+            ""name"": ""Desecrated Gauntlets"",
+            ""price"": 5,
+            ""id"": 22357,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22357/desecrated-gauntlets"",
+            ""type"": ""Hands"",
+            ""comment"": "" 17 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Desecrated Gloves"",
+            ""price"": 5,
+            ""id"": 22371,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22371/desecrated-gloves"",
+            ""type"": ""Hands"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Desecrated Handguards"",
+            ""price"": 5,
+            ""id"": 22364,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22364/desecrated-handguards"",
+            ""type"": ""Hands"",
+            ""restoDruid"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Pendant of Forgotten Names"",
+            ""price"": 1,
+            ""id"": 22947,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22947/pendant-of-forgotten-names"",
+            ""type"": ""Neck""
+        },
+        {
+            ""name"": ""Maexxna's Fang"",
+            ""price"": 5,
+            ""id"": 22804,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22804/maexxnas-fang"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Dagger"",
+            ""comment"": ""6-30 rogue aep oh vs mh no ds""
+        },
+        {
+            ""name"": ""Wraith Blade"",
+            ""price"": 65,
+            ""id"": 22807,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22807/wraith-blade"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Caster""
+        },
+        {
+            ""name"": ""Kiss of the Spider"",
+            ""price"": 35,
+            ""id"": 22954,
+            ""bosses"": ""Maexxna"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22954/kiss-of-the-spider"",
+            ""type"": ""Trinket"",
+            ""comment"": ""20 rogue"",
+            ""feralDruid"": 1,
+            ""warriorFuryprot"": 1
+        },
+        {
+            ""name"": ""Cloak of the Scourge"",
+            ""price"": 2,
+            ""id"": 23030,
+            ""bosses"": ""Noth the Plaguebringer"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23030/cloak-of-the-scourge"",
+            ""type"": ""Back""
+        },
+        {
+            ""name"": ""Band of the Inevitable"",
+            ""price"": 15,
+            ""id"": 23031,
+            ""bosses"": ""Noth the Plaguebringer"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23031/band-of-the-inevitable"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""Hailstone Band"",
+            ""price"": 0,
+            ""id"": 23028,
+            ""bosses"": ""Noth the Plaguebringer"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23028/hailstone-band"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""Noth's Frigid Heart"",
+            ""price"": 5,
+            ""id"": 23029,
+            ""bosses"": ""Noth the Plaguebringer"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23029/noths-frigid-heart"",
+            ""type"": ""Held In Off-hand"",
+            ""detail"": ""Healer"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""Hatchet of Sundered Bone"",
+            ""price"": 30,
+            ""id"": 22816,
+            ""bosses"": ""Noth the Plaguebringer"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22816/hatchet-of-sundered-bone"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Axe"",
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Libram of Light"",
+            ""price"": 10,
+            ""id"": 23006,
+            ""bosses"": ""Noth the Plaguebringer"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23006/libram-of-light"",
+            ""type"": ""Relic"",
+            ""holyPaladin"": 1
+        },
+        {
+            ""name"": ""Cloak of Suturing"",
+            ""price"": 15,
+            ""id"": 22960,
+            ""bosses"": ""Patchwerk"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22960/cloak-of-suturing"",
+            ""type"": ""Back"",
+            ""holyPriest"": 1,
+            ""restoDruid"": 1
+        },
+        {
+            ""name"": ""Band of Reanimation"",
+            ""price"": 10,
+            ""id"": 22961,
+            ""bosses"": ""Patchwerk"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22961/band-of-reanimation"",
+            ""type"": ""Finger"",
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Wand of Fates"",
+            ""price"": 10,
+            ""id"": 22820,
+            ""bosses"": ""Patchwerk"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22820/wand-of-fates"",
+            ""type"": ""Ranged""
+        },
+        {
+            ""name"": ""The Plague Bearer"",
+            ""price"": 0,
+            ""id"": 22818,
+            ""bosses"": ""Patchwerk"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22818/the-plague-bearer"",
+            ""type"": ""Shield""
+        },
+        {
+            ""name"": ""Severance"",
+            ""price"": 2,
+            ""id"": 22815,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Patchwerk"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22815/severance"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Cloak of the Necropolis"",
+            ""price"": 15,
+            ""id"": 23050,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23050/cloak-of-the-necropolis"",
+            ""type"": ""Back""
+        },
+        {
+            ""name"": ""Shroud of Dominion"",
+            ""price"": 15,
+            ""id"": 23045,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23045/shroud-of-dominion"",
+            ""type"": ""Back"",
+            ""comment"": ""6 rogue aep, 10 warrior aep"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1,
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Resilience of the Scourge"",
+            ""price"": 5,
+            ""id"": 23547,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23547/resilience-of-the-scourge"",
+            ""type"": ""Enchant""
+        },
+        {
+            ""name"": ""Fortitude of the Scourge"",
+            ""price"": 5,
+            ""id"": 23549,
+            ""fortank"": ""X"",
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23549/fortitude-of-the-scourge"",
+            ""type"": ""Enchant"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Might of the Scourge"",
+            ""price"": 5,
+            ""id"": 23548,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23548/might-of-the-scourge"",
+            ""type"": ""Enchant"",
+            ""warriorFury"": 1
+        },
+        {
+            ""name"": ""Power of the Scourge"",
+            ""price"": 5,
+            ""id"": 23545,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23545/power-of-the-scourge"",
+            ""type"": ""Enchant""
+        },
+        {
+            ""name"": ""Sapphiron's Left Eye"",
+            ""price"": 15,
+            ""id"": 23049,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23049/sapphirons-left-eye"",
+            ""type"": ""Held In Off-hand"",
+            ""detail"": ""Caster"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""Sapphiron's Right Eye"",
+            ""price"": 15,
+            ""id"": 23048,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23048/sapphirons-right-eye"",
+            ""type"": ""Held In Off-hand"",
+            ""detail"": ""Healer"",
+            ""holyPriest"": 1,
+            ""restoDruid"": 1
+        },
+        {
+            ""name"": ""Claw of the Frost Wyrm"",
+            ""price"": 10,
+            ""id"": 23242,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23242/claw-of-the-frost-wyrm"",
+            ""type"": ""Off Hand"",
+            ""comment"": ""40-50 rogue OH"",
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""The Face of Death"",
+            ""price"": 15,
+            ""id"": 23043,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23043/the-face-of-death"",
+            ""type"": ""Shield"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Eye of the Dead"",
+            ""price"": 30,
+            ""id"": 23047,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23047/eye-of-the-dead"",
+            ""type"": ""Trinket"",
+            ""holyPriest"": 1,
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1
+        },
+        {
+            ""name"": ""Glyph of Deflection"",
+            ""price"": 30,
+            ""id"": 23040,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23040/glyph-of-deflection"",
+            ""type"": ""Trinket""
+        },
+        {
+            ""name"": ""Slayer's Crest"",
+            ""price"": 30,
+            ""id"": 23041,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23041/slayers-crest"",
+            ""type"": ""Trinket"",
+            ""comment"": ""25 rogue"",
+            ""warriorFury"": 1,
+            ""warriorFuryprot"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""The Restrained Essence of Sapphiron"",
+            ""price"": 30,
+            ""id"": 23046,
+            ""bosses"": ""Sapphiron"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23046/the-restrained-essence-of-sapphiron"",
+            ""type"": ""Trinket""
+        },
+        {
+            ""name"": ""Desecrated Boots"",
+            ""price"": 5,
+            ""id"": 22365,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22365/desecrated-boots"",
+            ""type"": ""Boots"",
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Desecrated Sabatons"",
+            ""price"": 5,
+            ""id"": 22358,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22358/desecrated-sabatons"",
+            ""type"": ""Boots"",
+            ""comment"": ""18 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Desecrated Sandals"",
+            ""price"": 5,
+            ""id"": 22372,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22372/desecrated-sandals"",
+            ""type"": ""Boots"",
+            ""holyPriest"": 1,
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""Desecrated Pauldrons"",
+            ""price"": 15,
+            ""id"": 22354,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22354/desecrated-pauldrons"",
+            ""type"": ""Shoulders"",
+            ""comment"": ""13 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Desecrated Shoulderpads"",
+            ""price"": 15,
+            ""id"": 22368,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22368/desecrated-shoulderpads"",
+            ""type"": ""Shoulders"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Desecrated Spaulders"",
+            ""price"": 15,
+            ""id"": 22361,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22361/desecrated-spaulders"",
+            ""type"": ""Shoulders"",
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Splinter of Atiesh"",
+            ""price"": 1,
+            ""id"": 22726,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22726/splinter-of-atiesh"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Desecrated Belt"",
+            ""price"": 5,
+            ""id"": 22370,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22370/desecrated-belt"",
+            ""type"": ""Waist"",
+            ""holyPriest"": 1,
+            ""rogueSword"": 1,
+            ""rogueDagger"": 1
+        },
+        {
+            ""name"": ""Desecrated Girdle"",
+            ""price"": 5,
+            ""id"": 22363,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22363/desecrated-girdle"",
+            ""type"": ""Waist"",
+            ""restoDruid"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Desecrated Waistguard"",
+            ""price"": 5,
+            ""id"": 22356,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22356/desecrated-waistguard"",
+            ""type"": ""Waist"",
+            ""comment"": ""0 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Desecrated Bindings"",
+            ""price"": 5,
+            ""id"": 22369,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22369/desecrated-bindings"",
+            ""type"": ""Wrist"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Desecrated Bracers"",
+            ""price"": 5,
+            ""id"": 22355,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22355/desecrated-bracers"",
+            ""type"": ""Wrist"",
+            ""comment"": ""8 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Desecrated Wristguards"",
+            ""price"": 5,
+            ""id"": 22362,
+            ""bosses"": ""Shared"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22362/desecrated-wristguards"",
+            ""type"": ""Wrist"",
+            ""restoDruid"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Plated Abomination Ribcage"",
+            ""price"": 20,
+            ""id"": 23000,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23000/plated-abomination-ribcage"",
+            ""type"": ""Chest"",
+            ""comment"": ""15-40 warrior aep"",
+            ""warriorFury"": 1
+        },
+        {
+            ""name"": ""Desecrated Circlet"",
+            ""price"": 15,
+            ""id"": 22367,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22367/desecrated-circlet"",
+            ""type"": ""Head"",
+            ""holyPriest"": 1
+        },
+        {
+            ""name"": ""Desecrated Headpiece"",
+            ""price"": 15,
+            ""id"": 22360,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22360/desecrated-headpiece"",
+            ""type"": ""Head"",
+            ""restoDruid"": 1,
+            ""holyPaladin"": 1,
+            ""hunter"": 1
+        },
+        {
+            ""name"": ""Desecrated Helmet"",
+            ""price"": 15,
+            ""id"": 22353,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22353/desecrated-helmet"",
+            ""type"": ""Head"",
+            ""comment"": ""13 rogue aep"",
+            ""warriorProt"": 1
+        },
+        {
+            ""name"": ""Leggings of Polarity"",
+            ""price"": 20,
+            ""id"": 23070,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23070/leggings-of-polarity"",
+            ""type"": ""Legs""
+        },
+        {
+            ""name"": ""The Castigator"",
+            ""price"": 30,
+            ""id"": 22808,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22808/the-castigator"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Mace"",
+            ""comment"": ""27 rogue aep""
+        },
+        {
+            ""name"": ""Eye of Diminution"",
+            ""price"": 5,
+            ""id"": 23001,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23001/eye-of-diminution"",
+            ""type"": ""Trinket""
+        },
+        {
+            ""name"": ""Spire of Twilight"",
+            ""price"": 10,
+            ""id"": 22801,
+            ""bosses"": ""Thaddius"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=22801/spire-of-twilight"",
+            ""type"": ""Two-Hand""
+        },
+        {
+            ""name"": ""Ghoul Skin Tunic"",
+            ""price"": 20,
+            ""id"": 23226,
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23226/ghoul-skin-tunic"",
+            ""type"": ""Chest"",
+            ""feralDruid"": 1
+        },
+        {
+            ""name"": ""Necro-Knight's Garb"",
+            ""price"": 1,
+            ""id"": 23069,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23069/necro-knights-garb"",
+            ""type"": ""Chest""
+        },
+        {
+            ""name"": ""Ring of the Eternal Flame"",
+            ""price"": 10,
+            ""id"": 23237,
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23237/ring-of-the-eternal-flame"",
+            ""type"": ""Finger""
+        },
+        {
+            ""name"": ""Leggings of the Grand Crusader"",
+            ""price"": 1,
+            ""id"": 23668,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23668/leggings-of-the-grand-crusader"",
+            ""type"": ""Legs""
+        },
+        {
+            ""name"": ""Harbinger of Doom"",
+            ""price"": 15,
+            ""id"": 23044,
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23044/harbinger-of-doom"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Dagger"",
+            ""comment"": ""5 rogue aep""
+        },
+        {
+            ""name"": ""Misplaced Servo Arm"",
+            ""price"": 30,
+            ""id"": 23221,
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23221/misplaced-servo-arm"",
+            ""type"": ""One-Hand"",
+            ""detail"": ""Mace"",
+            ""comment"": ""31 rogue aep""
+        },
+        {
+            ""name"": ""Stygian Buckler"",
+            ""price"": 1,
+            ""id"": 23238,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23238/stygian-buckler"",
+            ""type"": ""Shield""
+        },
+        {
+            ""name"": ""Spaulders of the Grand Crusader"",
+            ""price"": 1,
+            ""id"": 23667,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23667/spaulders-of-the-grand-crusader"",
+            ""type"": ""Shoulder""
+        },
+        {
+            ""name"": ""Belt of the Grand Crusader"",
+            ""price"": 1,
+            ""id"": 23666,
+            ""forPvp"": ""X"",
+            ""bosses"": ""Trash"",
+            ""raid"": ""Naxxramas"",
+            ""url"": ""https://classic.wowhead.com/item=23666/belt-of-the-grand-crusader"",
+            ""type"": ""Waist""
         }
 ]";
             var data = JsonConvert.DeserializeObject<object[]>(raid_drop_data);
@@ -3898,7 +5299,7 @@ namespace json_lua_converter
 
             foreach(dynamic datum in data)
             {
-                var pvp = datum.forPvp == "Yes" ? "true" : "false";
+                var pvp = datum.forPvp == "Yes" || datum.forPvp == "X" ? "true" : "false";
                 lines.Add($"[{datum.id}] =  {{ [\"dkp\"] = {datum.price}, [\"forpvp\"] = {pvp} }},");
             }
 
